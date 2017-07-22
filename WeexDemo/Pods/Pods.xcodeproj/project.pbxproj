@@ -1,0 +1,2053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001E9CF39383972AF7175770522A3E53 /* PYZoomEchartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 109AA5E73F0490D20C2CAE2D2623C3B8 /* PYZoomEchartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00A8604BF0F08681D4A9DB99EE14A2C7 /* PYGaugeSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B09BF4600482AEADC1B48F209BD8D1 /* PYGaugeSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00DEDADC5CE7CD0584EA89E38453984B /* PYForceSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 184EC063F783F70A7CBC1635525754E3 /* PYForceSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F0A6B62A04D374A53846A2A8E9B678 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55038BB0E1D41B032C4262903187CD /* NSImage+WebCache.m */; };
+		00F587226377D8858BD3B0DF2245BA02 /* theme in Resources */ = {isa = PBXBuildFile; fileRef = C06D16233F1A7B792F139750CB91E05E /* theme */; };
+		0579E3AA5EDCAED14E9CF577181B29DB /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA90AC2AD5F45DD265517E3BEB39643 /* JSONModel.m */; };
+		0584589CC5483269356E26A2725B46CC /* PYDataRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 611ECF7C976CD4B9F2B6BEE55A97CFAE /* PYDataRange.m */; };
+		058B312CD225CA92A1D20C72EA835D24 /* PYAreaStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A09387E1AC3C0B9169279C3D93B56CFC /* PYAreaStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D494990BF1123DFD7BFA3FAD20FCB1 /* PYGaugeSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 868526E20B70FF12B156B173EEFF3D17 /* PYGaugeSeries.m */; };
+		0A3A685BD9A56E789E9EA83A1FECBBAE /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 486AD4FDE5BD88FC9CA8F1BE31C13093 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D2F605E1896047E8767F929F529023B /* PYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 990C323D163903E9C4AB59135D7CB8FF /* PYUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DCDFD5830841D9286EE1AA02F23DAA0 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2AF46630EFC1DA889F998DDF28EDA8 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DEDC96DAEB8867B043452C1D378F37E /* PYLegend.h in Headers */ = {isa = PBXBuildFile; fileRef = 87182940E75A8D693F50432C6FA18843 /* PYLegend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB0327741C749CA8607606186840D8D /* PYAxisPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9452737B4E0236EB7033FE546D503334 /* PYAxisPointer.m */; };
+		100A0EA8A903F53034524D93344AADA5 /* echarts.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A977848805C528988D31D324A2A25D /* echarts.html */; };
+		1176C2AF2DFCA38EFD9E22EA65238FFA /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83313B8F5622357AE2C7956BF4CF2E65 /* SDWebImage-dummy.m */; };
+		13EE67173954AE6AD28CF0B98E9DEB47 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8694621881E2FDF7E83C106E9A0C25 /* JSONModelClassProperty.m */; };
+		14B0336FD6DC77C1773B374AE60D3CB7 /* PYOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6CD687798BC4B3CCDD4577AAB6CD8 /* PYOption.m */; };
+		155F4A11D1C10936739B92970AAB0408 /* PYPolar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4522EF8FDF8F85D34136ADDCFD0F8 /* PYPolar.m */; };
+		1603E6BD5F566649EC8756F0B7598099 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 73B455E2807C564AB02EE7BD5564D6D8 /* js */; };
+		160E962CE69AF99AE0E349571A381C9A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F8C5DD8DA19B6E63361946BB5CC943 /* MJRefreshFooter.m */; };
+		1615F44139A14CEC7C82D546361B0609 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F297DC40536A4BB5FA62BB3CCB3298C /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17BEFE2DD13B510B269ADBE663D6826F /* Pods-WeexDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F4677C101E46A5C0367EEA9A4EF950 /* Pods-WeexDemo-dummy.m */; };
+		181EB9524542C71007CE1AA8453C898B /* PYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AEF9C3AF6D48B47E39A50E3A0E6833 /* PYAxis.m */; };
+		186ECA7F2B213C7A11A8F871EFD917CE /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C11F67EC3D3C30BC02F4DB2CED472 /* MJRefreshBackGifFooter.m */; };
+		187D5CE930EF2A8728DECAD8423F4D1F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6B824DCB1ED28EDA56C3164CB8506D /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFF9F1AAFC5A5999188718C2485A77C /* PYSplitArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 724CD7B8AD54018EBEBD25DDAFB2AAE5 /* PYSplitArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C8DA44F62BFBA2F0716B529C672761A /* PYFunnelSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF01A64A7CC145C929EDFA749F65950 /* PYFunnelSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBB848F70FF75B42621581A26786FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */; };
+		1E2E1AF6F9351E4FEF7F4D58C242A775 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F614730BF9E51FB493A1D8DD31841BA8 /* MJRefreshGifHeader.m */; };
+		1E38527C36D3C3F2D2EEC3CD45533510 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA756EAE08D93E3181E70AF101A5F50C /* MJRefreshAutoStateFooter.m */; };
+		1EEC557E5DC012D04FB181415C98525A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D6B43EEE741CB8A852AA58988DA3C8 /* UIKit.framework */; };
+		1F3B69A9665746265F00BCECE843C66D /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A90D0ADA6235FC47B127D0DFCAF2A904 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2157418DC7E294F275B5F0E22A4E050A /* PYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 445AFE0AE03D1919CBB9C77FBFED07DC /* PYAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21889C29BF6D512EF5E56023325BE16D /* PYItemStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E17536C12BF38DA449A8530AD057D8 /* PYItemStyle.m */; };
+		224D1DC6C329221D22740D2D8B107AEB /* PYOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A9B57FCB0527DB64B73B2A1F917C01 /* PYOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229981F1D0D51AB0E1E6EE2BCB36A8A9 /* PYFunnelSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C9215D8115F99ABFA9616560AAC2E /* PYFunnelSeries.m */; };
+		23CADB8F8A08DDE539EC8C72A74014CA /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE348D054EB9C541DA5AC88EE199C7C /* JSONHTTPClient.m */; };
+		2581CE1AAF3B0ECCC4EDBFD232564B2A /* PYTimeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDA32D1AB6A368094C04B384EE3A994 /* PYTimeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264D0BCAEB0419F7628985F4BEF8CF34 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C0F934700180D69FABC91DCB8E769E /* UIView+WebCacheOperation.m */; };
+		268DA924AEA51CCBE7D187332E4841A5 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40ACD7588CE247676B7A3E82163FC328 /* MJRefreshBackNormalFooter.m */; };
+		29D43903A7E200406158FDFEB4AB2B0D /* PYMapSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B8EBEE41420F60597B0DDA247EE9D /* PYMapSeries.m */; };
+		2AC677C7D32F72030B81CA00F24F65FD /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE19668CC5FACB1AB2EABD33F763881 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B20A7A457F69EA4CFEC2DB9CFB37FC9 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6818CEE2B50A4977A92F16C7F9B5C2 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB5B96C1FA4923B47F1F51E01D62A93 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11337D1E521663883ABB4B1429699461 /* SDImageCacheConfig.m */; };
+		2FCADB13C2F3D21E251FE796C73BEE2C /* PYSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AB7971E82AD64410EAE92C738AAF7B /* PYSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341A4BCFB7B1E78548ECD00869FE22B3 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCFB70C738007F5AF64C278AE30231C /* MJRefreshStateHeader.m */; };
+		37CFE5B2AFA36BA5F9CFCE1DC48A63DA /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4146288CB27D25844E89E0772BFACB08 /* SDImageCache.m */; };
+		39823254C0D0D255F33BB8A627DDB929 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1945EA633A13DE033716440B7B1185D7 /* SDWebImageDownloaderOperation.m */; };
+		39F1C3F609E0C536F09B15F46709B477 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 940FB9752FF44ECE5391AB4805C0A266 /* SDWebImagePrefetcher.m */; };
+		3A3F734B217BD8E29F7B7B4F5E4CB7C8 /* PYAxisLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 492BD1DAFF1BCE38D7D43D64783E7D0D /* PYAxisLabel.m */; };
+		3BDC230BBF2ED9AC2BB2A8D2B665A65A /* PYDataZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 702A665DA0EA02FF799C75411336B210 /* PYDataZoom.m */; };
+		3D861153B0302416C56400034EE66435 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C01CFA63B8C5CBA18ABC56DE9A172 /* UIImageView+WebCache.m */; };
+		3F40DF7D10BF74BDB496FBC26DEAA918 /* PYCartesianSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F423FD44A5998021955EC146BFC674B /* PYCartesianSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41F987271D71AC28C50264D3AB276625 /* PYZoomEchartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D39180AC9D52D8AE6845D7FFC46C15 /* PYZoomEchartsView.m */; };
+		42C18BBC2FD60F6ED1850838BC447F62 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2D30CD47DF3530A99EDBA9EB019B9E /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FFA198C9D08D8DF51284F8AC52DCBF /* PYNodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A278EB375E57208D3605F844B1E1B6F /* PYNodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		447E8D220D70410E91077E7DD148B849 /* PYAxisSplitLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4211C40DC59839E316B06BE384F893B2 /* PYAxisSplitLine.m */; };
+		45808DA1F981823409B3BF96223D666C /* PYPieSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AECEDDB336DB9CC6900F25A20364C1 /* PYPieSeries.m */; };
+		45A93AF505038F6F3B44F822C3B491EB /* PYMarkLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1B04923C906D60BD3C9DC82013CB6B /* PYMarkLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45E7855647CC0269176B05884A787EA8 /* PYCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2712BB0586E081C11670B1DBA8A390C9 /* PYCategories.m */; };
+		46D931760B10C6FBE8B29D06AAC94228 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B91706144ECD008AABFCC2E4BB5D836 /* MJRefreshBackStateFooter.m */; };
+		471CDD763A97A1CC13CFDC8825C1C49A /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 685998A9E55520B21875A018E789319C /* UIView+WebCache.m */; };
+		47BB0049F5F3CBF2885B1363281D6654 /* PYDataRange.h in Headers */ = {isa = PBXBuildFile; fileRef = B78D0FD4846CA4BD3758C6B73F98CA4A /* PYDataRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4894A1732F9FE845374B0D93B3275667 /* PYTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC483069A3CB9CD67B4DEC2FC3EF3A4 /* PYTooltip.m */; };
+		4982F6A38E149A01137311B533591DD5 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6FC4F1C18E24AAC8C72C6A71E62C85 /* UIScrollView+MJRefresh.m */; };
+		4BA071623F4B82E586A9A58EA4E01CDF /* PYRadarSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 85240A0E92F9819B35D4D79F62DE5426 /* PYRadarSeries.m */; };
+		4D12AC4D83DB34A425A171DD383B8134 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0E680C9A2F21591BC362772B365F1E /* MJRefreshComponent.m */; };
+		4E065AFEE4DC55C076BF82CDF632AD3F /* PYEchartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADECF3D7475D1944BD48050A060403CC /* PYEchartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E93D9EEBB3ABCA920FBE21DCE56027C /* PYAxisLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EECB2D88E08CFD720108AFAAAB1857 /* PYAxisLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FBED43AAEE93ED4B6AA231C285ED44D /* PYMarkPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F418423E27B02BED70560BFBC7615C6 /* PYMarkPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5000B5AA92F7956AFA56581E82A81407 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C82BC024EC3B35CCC89F93DF47936C73 /* MJRefreshAutoNormalFooter.m */; };
+		5041C54579F498827A41063BAACCE80E /* PYAxisTick.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB63644653E001064B8B2FB8CCDEB7B /* PYAxisTick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A515390AB209F1817CF810D83273B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */; };
+		51ABBB22FE0CD88188550336253753F6 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BF4DCA1FC1D38AAE818D56D07A36BD /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52491BCB896CE8B326911D7053791734 /* PYLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD178DBF47BDC24E8170257AB2E4777 /* PYLineStyle.m */; };
+		52A03B08D3A9F5E1221BA61C1A1B8932 /* PYItemStyleProp.m in Sources */ = {isa = PBXBuildFile; fileRef = DD21B0BA68E73C4EFB14E6D4CFE3445E /* PYItemStyleProp.m */; };
+		5312BD4AF28A1F7FE2B956CE4DF63FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */; };
+		548A81A5C4842D2B4CF16840BE62EEE8 /* PYTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FAB292A6EB7E76547FA42FB7E25141 /* PYTimeline.m */; };
+		579AC6E4AA729C7832006C744D2A1B60 /* PYChordStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E9685E9FB485A1D6F6072B83FF532 /* PYChordStyle.m */; };
+		57FF32B49C104CB8BE291339497ADDB7 /* PYColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7790EDE07EBB88393394092766AF4023 /* PYColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584D85D52E65C6F2A00BF23E827303BE /* PYTreeMapSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = EB87E073DCB2DF6C7744F58B35668E3F /* PYTreeMapSeries.m */; };
+		58BC692B21D7DE014B43EDD6B429FFEA /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD57BA45EB936E4ACC2DEEB8EA871CB /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5924AA8600BD00E50755C1106647B0B2 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 082036F3535B3252F077277AC1ADA305 /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		597CEE76562EB4D948504B07655C54D6 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C28DE87C2D40F8BD98F334818F4713A6 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5992F851D7ED1C7319BF0D3E6CA5DA3A /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6171C69119F3CF3A0E2A5D822885A601 /* UIButton+WebCache.m */; };
+		59CF9E95314C2B98CD4E53BA7FE282E4 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B47334875EE2100A4F95A02B2D9C0CF /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9F5F854C6DD6FF68CEEA7FA68382AC /* PYTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 82452EAE08246112BC0E93518135F01C /* PYTextStyle.m */; };
+		5B48AF299CAC22EDDE38347A959BF103 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F29681E10A26CBBA4A37606AE4CE3E /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E5BFA44D5C0EFF377BD148BF6D03004 /* PYRadarSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = BE98D0B84ED100A4456AAFD74372020B /* PYRadarSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612219A7D011B10C0B2722043B7E207A /* PYDataZoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ED1C5C70A38C0394A71A46711AA415 /* PYDataZoom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635F9EFF4A131A00C8F9BE720E78D446 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0FA3F194807E0034AFB4ABC286717D /* MJRefreshAutoFooter.m */; };
+		6566D5A29C72211543E0AE02FD191528 /* PYEventRiverSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DF2E7C13F24E0FDDB77F27D96EB500 /* PYEventRiverSeries.m */; };
+		676DA5E8A5A2F010313353C652DAC8A3 /* PYGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A120D6DE3E26C7CF908599315733FFD /* PYGrid.m */; };
+		68BACA6316F0C05E8B81FA5676A54C40 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7C7D219B5969A4754D735D3581BD12 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C8A9818CA23688644E83C4F9B48FDE /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8B2F35A5DD78A5C3BB22777B17FF8 /* SDWebImageCompat.m */; };
+		6AD84EFE2F159118DB9BBBD4445A0CF7 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F2F8B653A42017260B3791243EDAFE /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE24059F6A4DD1A3F55008774AD933F /* PYTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BE63B6A0E4BBC08FF0BC93E8289377 /* PYTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B8E59D8C26F34D72EB14F5769D0DFEC /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CEA6497C9ACB02A704BA0DF5366426 /* MJRefreshNormalHeader.m */; };
+		6C5C0D427A05341BCE205CE20B6799AD /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D87FC48EADC68A6EDE32CF956F7152 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E59171E24DEEF504E8558C80E541651 /* PYJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF360D27A262FF4FA36F2CF8647290 /* PYJsonUtil.m */; };
+		6EC5E85C18FAE2AC22BA5716349EEC73 /* PYRoamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F739A445A94B1EAC3604B87CC1C271A /* PYRoamController.m */; };
+		6FCE9B6B8F7B468F733375C9F1A0CE5F /* PYTreeMapSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 742F8306E567AEF8316A3ACF9B925D41 /* PYTreeMapSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7000D3441912D6E275B8311734F5B423 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D4A8EFA9712AEFA4B556ED83D8529D /* Security.framework */; };
+		735080F4DED28780A7DF67B829AA0297 /* PYPieSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = B92480CA541B67389AE22DE20AE94252 /* PYPieSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735F3CBFFE607533C6A3B121789AF962 /* PYAxisSplitLine.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCEB20DF31E1E94102267FA7C13A970 /* PYAxisSplitLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F2043CC3C19C0DC7306F9EB91E529E /* PYTreeSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = BC544AA583D97D5B04BD39904AF50BE4 /* PYTreeSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FE1A53E6713DCAA46C6DE9BFD9C2D5 /* PYNodeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CB06819B0019FC94B23DF56FA86B041B /* PYNodeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D098A1505FBEAFC7880C8438A6AC4B /* PYTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1DD97726A9A3EF5F2B9DD7305C835B /* PYTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FDC39CD6B0C44427D1776F3D8FC55A /* PYCartesianSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E273F54F26CC707D4433579AE0156 /* PYCartesianSeries.m */; };
+		7B2ED9E571E4E51168F7157F2EAE6199 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC88452EAA2B93583BEA62FC025E76ED /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA31E5D4DEE33D60E7145E27EA13A81 /* PYLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E17CD5E04959D1015E7A2CA23F81B0E /* PYLegend.m */; };
+		7CE298FC4680B93B3A466613E565BA0B /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC90DCCF8E850A26DA587242120BAA3C /* UIView+MJExtension.m */; };
+		7DBF9B04056B46D209411BF502D6D3B4 /* PYWordCloudSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F61DC62BD0EB11BCAC52C3DEC93F2 /* PYWordCloudSeries.m */; };
+		7E44051C92B60BB6BD61077C48503D58 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3828B16D689D046D279E403526C919 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80EF696ABAAF8B86936411BA92864FA5 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB277506C2D7B3A2748CD948C2A3B7E /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D4C070808E523EC12CA8F9B8090B48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */; };
+		8313EC76D5CFAD262097020320252CBD /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2AE00021F38BEEAD933AA70AF3FB3A /* SocketRocket-dummy.m */; };
+		838BA28329D682BBC053417F078048B9 /* PYNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEED744BD24026E4A88A58BF783CCCA /* PYNodes.m */; };
+		84159E7557161974DBC462DBBBE48343 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5B977B2A4CEE82FE4FB8C38607F53C /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BBFB5F0008B8304BF840AA6449C61F /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 527AA020E6C282E48A061FD8B7E2CB62 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C487BBC54499B6AED4F4350FCC5B2E /* PYChordSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 052891BA796C3B3316686C6DF490F0CE /* PYChordSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		863B14E40020FFD7EEC7B4C4DBC9D734 /* PYToolboxFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8111FAFAEC3EB006ED97B9AD6A1AE6 /* PYToolboxFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		871819F6309FCF7824A2E4055EC4113C /* PYChordStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = D502AC765852C10D729E5F6CB9E9FF9E /* PYChordStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88290D5C90C12F48F09E6AC463737F1F /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A6FA144812635998C58FA141CB5918 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		882AA7C03626DDA709E746DBF86AA3F5 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0056F058A5252C75A2DA51BBA806655C /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8859572DA501928E2BB1F304D7EEC4C9 /* PYMarkPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = BABE734F38A1792574C6247EF3C71836 /* PYMarkPoint.m */; };
+		89FDA19DEC265FEFC5DC0FC36C932524 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9E107B92C1F5F562F1632409E01047 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5CB1A8DD4E380CA59DE5AA975DCFAD /* PYLinkStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA969CB88327DC9475ACD35A0C03FE6 /* PYLinkStyle.m */; };
+		8BFED442FA52F3200E5908A1C98C5197 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EE929EF4E5AE3CC408845787BBBA19 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D897D005C0D89F01B0CC1579812B344 /* PYTreeSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 3618FDFDE8D06209304E625902695833 /* PYTreeSeries.m */; };
+		8D8A5EB192F195646788BB4B841E13DC /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EE048450C4DF867D967B36E9E50C6D /* JSONKeyMapper.m */; };
+		918DC59487528D8399F165F7CE75D454 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF70A12CA0C94CF392A82D2630B5965 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B6D4C2EA65A856669E1D0BAC33903D /* PYNoDataLoadingOption.h in Headers */ = {isa = PBXBuildFile; fileRef = F48A16C0D4F7D8866A2CC78E5BF6FE29 /* PYNoDataLoadingOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925EBB6CDAA2E17791E1DDCDA62A3375 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D958F2B624CCAB5E73DAE5B8B076B4 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939BB9E564F9A2C4A38AC42DB147A4E6 /* PYAxisLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B70A43244D7981086E3691B9464F348F /* PYAxisLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939CE158971D2051384E7E8C001C4C64 /* PYJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4027DAA0F0DF8C8C545FA327B08E1D80 /* PYJsonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93EDA71FE583E92C564046021EDC6E38 /* PYAxisLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 290A222C446F5D98C73E0CAB85A1DFBC /* PYAxisLine.m */; };
+		94E15AA408F0FA6A0172D8A1F64B04BB /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BEB4B158C0CCE7BF2D75094103A8FC /* JSONValueTransformer.m */; };
+		95F90F972DFDFBC3E012F069A6E24C33 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A78B98502CBB1BA430D7652F0CF115F /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99364D96200D03FC3229E6A956E10ADB /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 904488B6622E7D8D401DEF5DD2E655F5 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B12C06E2FABF10DE961C126DB51C6EB /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E506EB5F6B08CE5C564F51F2168437 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD168DDE589BC7C7B8B6EA5DC865C55 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 389E7031F5EE985B06395F9E3B846FC0 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEED5BC93E20EA39572722FB5CE7231 /* PYCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C02288C7DCF1148EAF4A831C1EA0DE1 /* PYCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D9D3182B7B0714358DF7B8B8C53352F /* NSObject+PYObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D62B26F73993B92FDAB8EAE88FDC0743 /* NSObject+PYObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DDC888AA9FE29CD96DCB574AF125142 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A07E5D3526BAC67482662E3486E0F4 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EFF06340E1502BF1F4E797A92BF04D8 /* PYToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DEF1E48E54B6C4349A841D214CA417 /* PYToolbox.m */; };
+		9F06B13BAA0376EAD4E125DA78456B3B /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCE2A105FE16E751E5EEA10521B61C /* MJRefreshHeader.m */; };
+		A221D72F62C8CCE9575157C57E090EC9 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B4AD10CB076EC2B079577970575300 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A24E23767A5847B0C18F884818CA01DA /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C3F11B2DE7056F4ED010176305F239 /* JSONModelError.m */; };
+		A5125A0D6CDCDC7E2CB5F304876604E3 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B81B6C10F420C623D3EDC9AE17A3ED76 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67059B6451EE4D4C8827F52621E54A3 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A20DC04FBAF1D0316E10F5161683DAFC /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D6A076FACCA04C99738C4BF7C6DBE5 /* PYItemStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0CE14678921D3ACEAB5B32A4430F1D /* PYItemStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9D987042EAD5CF6014EAF4BBD7BB9B3 /* PYLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62E4E4E92FABD6515EE407E7C3ED17 /* PYLoadingOption.m */; };
+		AAA9F9FA2072F0F521892E6812B52629 /* PYSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEB7F81FC414B6BEFE45CAC43DB070 /* PYSeries.m */; };
+		AC97584742009136C11522C4916B9D19 /* iOS-Echarts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE2BA1627270289B8F8212E2A7F7C6 /* iOS-Echarts-dummy.m */; };
+		ADD69BFB0A0F3F7B7E162E410A67CF05 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D157B75DB895A58E6432081FA57315B7 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB10E4C530081BBF10BA1BE9458F362 /* PYLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B494683002B977670DF6F03271858AD /* PYLineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA7B52ED28313AB1B508707AA734B21 /* PYLinks.h in Headers */ = {isa = PBXBuildFile; fileRef = 217D4F54215CB4F29FA41801E9C8E9CD /* PYLinks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02EDD14544CD4DB5DDCE6BEC04BB87F /* PYEchartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D3806D2BE134E7565FAE8B79C9FF6 /* PYEchartsView.m */; };
+		B1884695D8A669491EF4AACF84D8156D /* WKEchartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCC4384DFC7395F0B0009DD6B4A171 /* WKEchartsView.m */; };
+		B1B5E8411DDE1035AE30045F60AC80EC /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = C93AB8959E7229230A4C91DCE426A6BF /* JSONModel+networking.m */; };
+		B328C6A51D29F3820F4F351997DDAF29 /* WKEchartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F13EB2A1A8C2BF9F33EAA20B9DC619C /* WKEchartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EAF278902A9B25808126F504317845 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A4305F054C62621EA33C75F83CB178A8 /* NSBundle+MJRefresh.m */; };
+		B844AA8AF0B904462D6558AB182D312A /* PYVennSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 359D5113019EA878C3B54F3A2F21649C /* PYVennSeries.m */; };
+		B9005A190C4941E15D68775B98820C69 /* PYHeatmapSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E27E53ABEE3663508D465F1CD777C4 /* PYHeatmapSeries.m */; };
+		BDA7650B1BB999519160ABFE5E089CD3 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E68C84F2BABCA1D547B6E6D50CBEDC5 /* MJRefreshBackFooter.m */; };
+		BF34FC0E2795039ADF67E0A19FBB5EC1 /* PYMapSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E24C5BF27546B2F01E4F9C023B7B34 /* PYMapSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C16FDBA2BC10E28B8D59DE5CCF4758EC /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30FF2C300E2A990BC4C3E49F8AFC44BB /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C23BB12907053A10150BE9E980EAF291 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B4EB4D3EADD7253503ED94619C4565 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C521B7FE62804A6154CF609BC9422999 /* PYSplitArea.m in Sources */ = {isa = PBXBuildFile; fileRef = AC66E81D6517CB32E26A17FD214D61B4 /* PYSplitArea.m */; };
+		C6034ACCFF26A355CB2AEA04D6D9C872 /* PYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A99C338B3EB406A4857DD47CF02F8B64 /* PYColor.m */; };
+		C64ADA912DD6E167B4E3C6DB870667C8 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6CE114EB894B9807D6F16C87077DEE /* MJRefresh-dummy.m */; };
+		C7260EFD30B06AFE75A2C0FDCD0FC812 /* PYAxisPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0282D59C9177711EC635E1A176B6D1BF /* PYAxisPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73C52684157264415DE5904E339E4F1 /* PYToolboxFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C137A3212767FC40F612765F4867B93 /* PYToolboxFeature.m */; };
+		CA91A270834369588A50935E2FD6BD3A /* PYAxisTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F216DFAC7C50996F2DFDF623D7AE88F /* PYAxisTick.m */; };
+		CB1872607DFA1B2C1EDF8D853982B400 /* PYLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = C098D6BA4300BC9CBB1F4814595EE235 /* PYLinks.m */; };
+		CBFA9E8BF004D429FE3712F205326E18 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F34AE4DD6EA96A179078A05862A8B7C2 /* UIImage+GIF.m */; };
+		CD3B6EE60BD447B2DAD05E1438E4CFD2 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 76774F93F95ACBCB3638F63058ED10B6 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEDC36544DE88C51E6338D83A399F7E7 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467422A1665FD2C1C86C2CF1F9DBEDB /* SDWebImageManager.m */; };
+		CFF5154B79EA26CC2BAEA533914C1B71 /* PYToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = E1588A1E3E8E6CB07FBDD3AF7B311339 /* PYToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D324F9C29A7D1A54D0EA5373E50EC19D /* PYLinkStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E0C570AE52CC2E412C33EAF34F1DD3 /* PYLinkStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D841130B2466B78EC8D13A9BEAF69D1F /* PYGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 873E1E763B98DA1D82E217BDF1B3091B /* PYGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91A44E187477241B893D258E3F67A58 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = C949FC63DA2CFDB74629146155894BDC /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB196776A8A9D687B6F00F6BC35B3C2D /* PYLoadingOption.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEE37B0E9D4D0D7B148893CA6913EE5 /* PYLoadingOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBAD1AB24073ED49C20F65C2742E14EB /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = E24489521E726BB5157CE3331A1D73B7 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF8277A3BFA5EAC1A5D953A97CABC624 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F0FABF982955D7238860342FE5B729 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF0AE0F73F13074F8040169096A6ABA /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F9A46999C9F21739F1FBA0B23A8E1 /* UIImage+MultiFormat.m */; };
+		E0D19DBBE7EA276B999C0927DAD197C9 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 903CBB6E20602E44F87F2339579C2F0C /* SDWebImageDecoder.m */; };
+		E2361571E74743BC4EBD2D734C913AD6 /* PYEventRiverSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = E328FB6897AA3F1BFCA6961DA632B056 /* PYEventRiverSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55A8E346FD3EB786E3D92FCAAF3BAC7 /* PYHeatmapSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D32313BDAE3B774DC10F013BB38F8FB /* PYHeatmapSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D1AFB5E8012A9BBFE8B8C76E324E32 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB42F975DDB851CF8F76EE7EAC73BCE /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FA008E96CF99E93D2F596722662B83 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDCCD1BB569690095EC4CDC13DE4C9 /* MJRefreshAutoGifFooter.m */; };
+		E8273CEBF1D56A4627CF1B3CCDBA71B8 /* PYAreaStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FE63E78EC910BB01250F9CD6AE5A5E /* PYAreaStyle.m */; };
+		E8A602E6B50C1405658982CC0E579719 /* PYChordSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA07C2825CDC40CDF3C7AFBD39C8BAA /* PYChordSeries.m */; };
+		EAB22BE5759275B5F904758D7898F891 /* PYWordCloudSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DCC14F455D95914BAB5A489EEF4BC6 /* PYWordCloudSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB3761BA2397A53AD23FAD7F8FB31914 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 494144BCAA79B3E233F59261FEF81A77 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC12BC47EFA90DE45A96999CF68B56DE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39D28E14F54A0B63C5430E0A5DC7DDB /* CFNetwork.framework */; };
+		EC63B9F43EE981907A5A8DC573461313 /* PYVennSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = B455F87FBDE21AE072749A6874E01FFA /* PYVennSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0D43D26BC7CAECB667B26E842604AB /* PYPolar.h in Headers */ = {isa = PBXBuildFile; fileRef = 85ED9F4803EF5FD8F4FDF1ECF970A9F3 /* PYPolar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED89F1A48BA44D203A2C4B9C6F53AC0B /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1E7494CAF6EA79DED3886272FB39F8 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD156E10A99AB414A8A7C84FC82FFC2 /* PYNoDataLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9AB5EE69E2F40C4E42E8289026DF2 /* PYNoDataLoadingOption.m */; };
+		F0FFCC82A4A1701978BA4FA94BE30DF0 /* PYItemStyleProp.h in Headers */ = {isa = PBXBuildFile; fileRef = 627B6116FBF8DB94B46CA2CE01CC797E /* PYItemStyleProp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26826F8D7034866E0A49AC7C04FAAD9 /* PYNodeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E12668845E303501C1B63C6B546342F /* PYNodeStyle.m */; };
+		F2FDBC0873380CDE20B7B3FE43FE59DC /* PYTooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = ED751187303EB6345A93A992062765B7 /* PYTooltip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34FFB52054BCAE9EB809668F5555F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */; };
+		F4235ADCE8B582DBD53EFD466C4B0A2B /* PYRoamController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C0B7F5A29045B32F9E9FDB921CF39C /* PYRoamController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53754CAAB10BB3C954169DE35007A65 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C164B04211290CC811284E8FAB3512D1 /* UIScrollView+MJExtension.m */; };
+		F673B9F19CCEDF9DDA79226CFA40199A /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8B4ADA9A4379A67FD0A01069DBC28E /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F69E60D2F42D6058EB7332E0A68C953A /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B8033D47CCA3DCD5EFA0C02AC19C7316 /* UIImageView+HighlightedWebCache.m */; };
+		F71530448B7A282746853F4718DCA267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */; };
+		F728127036515C2D45D29474BCAED19C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A123EFDF65DA8E4C16A28D916E2F4865 /* NSData+ImageContentType.m */; };
+		F785A423E14108DC581494A9F87E6099 /* NSObject+PYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C24E30A6ED0BFDF0730953A2D62A90 /* NSObject+PYObject.m */; };
+		F7D8112EF68548C7E2560AA1CA5548D0 /* PYTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B00A428005B900ED542C7C40DB3099 /* PYTitle.m */; };
+		F82C185FC98954D3FB47E94CE712973F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3282C574A7CACE0F4BE8673AAC411D51 /* ImageIO.framework */; };
+		F88580E07538A44A13193CA98E37ADCA /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F55CB9BF6817BFBCC9B2694CAF5BEA7 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8920260191C1794FE9B313E1338698A /* PYForceSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6CA341A1AD0BA7ED6F6C8112CE5FA /* PYForceSeries.m */; };
+		F9058C56ECBB51A528709FD1F0A3FBF9 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0BC363A566CA0EC5FC02D6715C6598 /* JSONAPI.m */; };
+		F989BB5ECEB845176605AAA511204ADC /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2DAAC8E95302DC477AE2F1FF44E90 /* JSONModel-dummy.m */; };
+		FA86026A147BCDF20FCC4E5B1E9FD7E5 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0902C7A00074F9DFAD3F85DB0FA69 /* SRWebSocket.m */; };
+		FC091A4266DB8F2CED4F0629F8AE59F2 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C2036DC6AA0F44A9B0409235BFC14F /* MJRefreshConst.m */; };
+		FC7411019530B798D3C8FB852BC441D5 /* iOS-Echarts.h in Headers */ = {isa = PBXBuildFile; fileRef = 65752668EE4FFEC159717026106C7430 /* iOS-Echarts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD3EDA5F82B30C77536C625AA5C50A35 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD91B5DD86242F53A74DDEDCDB25C3C /* SDWebImageDownloader.m */; };
+		FEF61FFDB52A1C81035DEEB9FAF9EB31 /* PYMarkLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 089864E055091D7CA3797AAF18FE835B /* PYMarkLine.m */; };
+		FF1B68BB2C26B49D0DB408D77BF73D8C /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F37C22DFF0EBE96461D7870DC661824D /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0722822DF5408C1B219DFD40450B193F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF38EA93C85B2EB4C51AF70570D6B6E6;
+			remoteInfo = "iOS-Echarts";
+		};
+		11B3AA48801301F94546605C5A6CA4B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21FDA27BB65ACD977F912D38701E92F9;
+			remoteInfo = SocketRocket;
+		};
+		41750D7FC568C358C8F0FE3F664EA68F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5952F16FC50F0A074D3C54CB59EB15;
+			remoteInfo = "iOS-Echarts-iOS-Echarts";
+		};
+		5ADE4DEF9529F38DF719A708A8D7B991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CF549EBEEE7BC87AEAE35397184D94;
+			remoteInfo = MJRefresh;
+		};
+		6002A2466A3769ECA500D8C1DC066333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2686B9FB2D06BC6B063AEC612F7FBE4D;
+			remoteInfo = SDWebImage;
+		};
+		A5FBA71CA366D3E02E60B5363BFA7E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E3CFFEDC2629EE0C17B343EC00595B;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0056F058A5252C75A2DA51BBA806655C /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		01A07E5D3526BAC67482662E3486E0F4 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		0282D59C9177711EC635E1A176B6D1BF /* PYAxisPointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisPointer.h; path = "iOS-Echarts/Model/PYAxisPointer.h"; sourceTree = "<group>"; };
+		0467422A1665FD2C1C86C2CF1F9DBEDB /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		052891BA796C3B3316686C6DF490F0CE /* PYChordSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYChordSeries.h; path = "iOS-Echarts/Model/Series/PYChordSeries.h"; sourceTree = "<group>"; };
+		082036F3535B3252F077277AC1ADA305 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		089864E055091D7CA3797AAF18FE835B /* PYMarkLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYMarkLine.m; path = "iOS-Echarts/Model/Series/PYMarkLine.m"; sourceTree = "<group>"; };
+		0B2AF46630EFC1DA889F998DDF28EDA8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		0B5E273F54F26CC707D4433579AE0156 /* PYCartesianSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYCartesianSeries.m; path = "iOS-Echarts/Model/Series/PYCartesianSeries.m"; sourceTree = "<group>"; };
+		0C9E107B92C1F5F562F1632409E01047 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		0D0CE14678921D3ACEAB5B32A4430F1D /* PYItemStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYItemStyle.h; path = "iOS-Echarts/Model/PYItemStyle.h"; sourceTree = "<group>"; };
+		0D1DD97726A9A3EF5F2B9DD7305C835B /* PYTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTextStyle.h; path = "iOS-Echarts/Model/PYTextStyle.h"; sourceTree = "<group>"; };
+		0D1E7494CAF6EA79DED3886272FB39F8 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		0DB9B4442ABA1B13D468DEADDDD66B33 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDCE2A105FE16E751E5EEA10521B61C /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		109AA5E73F0490D20C2CAE2D2623C3B8 /* PYZoomEchartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYZoomEchartsView.h; path = "iOS-Echarts/View/PYZoomEchartsView.h"; sourceTree = "<group>"; };
+		11337D1E521663883ABB4B1429699461 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		11AEF9C3AF6D48B47E39A50E3A0E6833 /* PYAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxis.m; path = "iOS-Echarts/Model/PYAxis.m"; sourceTree = "<group>"; };
+		16F2ABEF1A7613277054AD82027451AF /* ResourceBundle-iOS-Echarts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-iOS-Echarts-Info.plist"; sourceTree = "<group>"; };
+		184EC063F783F70A7CBC1635525754E3 /* PYForceSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYForceSeries.h; path = "iOS-Echarts/Model/Series/PYForceSeries.h"; sourceTree = "<group>"; };
+		1945EA633A13DE033716440B7B1185D7 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		1B8111FAFAEC3EB006ED97B9AD6A1AE6 /* PYToolboxFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYToolboxFeature.h; path = "iOS-Echarts/Model/PYToolboxFeature.h"; sourceTree = "<group>"; };
+		1BCE2BA1627270289B8F8212E2A7F7C6 /* iOS-Echarts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Echarts-dummy.m"; sourceTree = "<group>"; };
+		1C0D0DD3B888A8C3C3BCFD3077D5BB0E /* iOS-Echarts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "iOS-Echarts.bundle"; path = "iOS-Echarts.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCFB70C738007F5AF64C278AE30231C /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		1D32313BDAE3B774DC10F013BB38F8FB /* PYHeatmapSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYHeatmapSeries.h; path = "iOS-Echarts/Model/Series/PYHeatmapSeries.h"; sourceTree = "<group>"; };
+		20C0B7F5A29045B32F9E9FDB921CF39C /* PYRoamController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYRoamController.h; path = "iOS-Echarts/Model/PYRoamController.h"; sourceTree = "<group>"; };
+		217D4F54215CB4F29FA41801E9C8E9CD /* PYLinks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLinks.h; path = "iOS-Echarts/Model/PYLinks.h"; sourceTree = "<group>"; };
+		21C9334F63F8584BFCC0C6251D9EFBC4 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D958F2B624CCAB5E73DAE5B8B076B4 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		2206FC95F323EC80B343159F109CE818 /* Pods-WeexDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexDemo.release.xcconfig"; sourceTree = "<group>"; };
+		25B2DAAC8E95302DC477AE2F1FF44E90 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		26C2036DC6AA0F44A9B0409235BFC14F /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		26D87FC48EADC68A6EDE32CF956F7152 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		2712BB0586E081C11670B1DBA8A390C9 /* PYCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYCategories.m; path = "iOS-Echarts/Model/PYCategories.m"; sourceTree = "<group>"; };
+		290A222C446F5D98C73E0CAB85A1DFBC /* PYAxisLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisLine.m; path = "iOS-Echarts/Model/PYAxisLine.m"; sourceTree = "<group>"; };
+		2A120D6DE3E26C7CF908599315733FFD /* PYGrid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYGrid.m; path = "iOS-Echarts/Model/PYGrid.m"; sourceTree = "<group>"; };
+		2A278EB375E57208D3605F844B1E1B6F /* PYNodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYNodes.h; path = "iOS-Echarts/Model/PYNodes.h"; sourceTree = "<group>"; };
+		2AD57BA45EB936E4ACC2DEEB8EA871CB /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		2CB42F975DDB851CF8F76EE7EAC73BCE /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		30F0FABF982955D7238860342FE5B729 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		30FF2C300E2A990BC4C3E49F8AFC44BB /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		3282C574A7CACE0F4BE8673AAC411D51 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		33F623F33AB8A611557043068CEFD81B /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		34C24E30A6ED0BFDF0730953A2D62A90 /* NSObject+PYObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PYObject.m"; path = "iOS-Echarts/Categories/NSObject+PYObject.m"; sourceTree = "<group>"; };
+		359D5113019EA878C3B54F3A2F21649C /* PYVennSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYVennSeries.m; path = "iOS-Echarts/Model/Series/PYVennSeries.m"; sourceTree = "<group>"; };
+		35F09D693D715482E267CC469AE79511 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		3618FDFDE8D06209304E625902695833 /* PYTreeSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTreeSeries.m; path = "iOS-Echarts/Model/Series/PYTreeSeries.m"; sourceTree = "<group>"; };
+		3653DE7C82EAB433A4665D96633C65DD /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		389E7031F5EE985B06395F9E3B846FC0 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		39AEB7F81FC414B6BEFE45CAC43DB070 /* PYSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYSeries.m; path = "iOS-Echarts/Model/Series/PYSeries.m"; sourceTree = "<group>"; };
+		3AA969CB88327DC9475ACD35A0C03FE6 /* PYLinkStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLinkStyle.m; path = "iOS-Echarts/Model/PYLinkStyle.m"; sourceTree = "<group>"; };
+		3B494683002B977670DF6F03271858AD /* PYLineStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLineStyle.h; path = "iOS-Echarts/Model/PYLineStyle.h"; sourceTree = "<group>"; };
+		3BC35F9DBFBC41A4ACBE8AFCA3244952 /* Pods-WeexDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC483069A3CB9CD67B4DEC2FC3EF3A4 /* PYTooltip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTooltip.m; path = "iOS-Echarts/Model/PYTooltip.m"; sourceTree = "<group>"; };
+		3E17CD5E04959D1015E7A2CA23F81B0E /* PYLegend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLegend.m; path = "iOS-Echarts/Model/PYLegend.m"; sourceTree = "<group>"; };
+		3F297DC40536A4BB5FA62BB3CCB3298C /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		3FD0902C7A00074F9DFAD3F85DB0FA69 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		4027DAA0F0DF8C8C545FA327B08E1D80 /* PYJsonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYJsonUtil.h; path = "iOS-Echarts/Util/PYJsonUtil.h"; sourceTree = "<group>"; };
+		40ACD7588CE247676B7A3E82163FC328 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		40DCC14F455D95914BAB5A489EEF4BC6 /* PYWordCloudSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYWordCloudSeries.h; path = "iOS-Echarts/Model/Series/PYWordCloudSeries.h"; sourceTree = "<group>"; };
+		4146288CB27D25844E89E0772BFACB08 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		41B6CD687798BC4B3CCDD4577AAB6CD8 /* PYOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYOption.m; path = "iOS-Echarts/Model/PYOption.m"; sourceTree = "<group>"; };
+		4211C40DC59839E316B06BE384F893B2 /* PYAxisSplitLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisSplitLine.m; path = "iOS-Echarts/Model/PYAxisSplitLine.m"; sourceTree = "<group>"; };
+		43E27E53ABEE3663508D465F1CD777C4 /* PYHeatmapSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYHeatmapSeries.m; path = "iOS-Echarts/Model/Series/PYHeatmapSeries.m"; sourceTree = "<group>"; };
+		445AFE0AE03D1919CBB9C77FBFED07DC /* PYAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxis.h; path = "iOS-Echarts/Model/PYAxis.h"; sourceTree = "<group>"; };
+		45F29681E10A26CBBA4A37606AE4CE3E /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		46A6CA341A1AD0BA7ED6F6C8112CE5FA /* PYForceSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYForceSeries.m; path = "iOS-Echarts/Model/Series/PYForceSeries.m"; sourceTree = "<group>"; };
+		46DFD495A50DF965AB6635EA96415ED2 /* Pods-WeexDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4720DF0857D13DF73D4496D56D2A7474 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		486AD4FDE5BD88FC9CA8F1BE31C13093 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		48A977848805C528988D31D324A2A25D /* echarts.html */ = {isa = PBXFileReference; includeInIndex = 1; name = echarts.html; path = "iOS-Echarts/Resources/echarts.html"; sourceTree = "<group>"; };
+		492BD1DAFF1BCE38D7D43D64783E7D0D /* PYAxisLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisLabel.m; path = "iOS-Echarts/Model/PYAxisLabel.m"; sourceTree = "<group>"; };
+		494144BCAA79B3E233F59261FEF81A77 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		49E17536C12BF38DA449A8530AD057D8 /* PYItemStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYItemStyle.m; path = "iOS-Echarts/Model/PYItemStyle.m"; sourceTree = "<group>"; };
+		4B4B8EBEE41420F60597B0DDA247EE9D /* PYMapSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYMapSeries.m; path = "iOS-Echarts/Model/Series/PYMapSeries.m"; sourceTree = "<group>"; };
+		4B5B977B2A4CEE82FE4FB8C38607F53C /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		4D6CE114EB894B9807D6F16C87077DEE /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		4DE4522EF8FDF8F85D34136ADDCFD0F8 /* PYPolar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYPolar.m; path = "iOS-Echarts/Model/PYPolar.m"; sourceTree = "<group>"; };
+		4DF70A12CA0C94CF392A82D2630B5965 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		4DFDCCD1BB569690095EC4CDC13DE4C9 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		4E12668845E303501C1B63C6B546342F /* PYNodeStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYNodeStyle.m; path = "iOS-Echarts/Model/PYNodeStyle.m"; sourceTree = "<group>"; };
+		4E1B04923C906D60BD3C9DC82013CB6B /* PYMarkLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYMarkLine.h; path = "iOS-Echarts/Model/Series/PYMarkLine.h"; sourceTree = "<group>"; };
+		4F739A445A94B1EAC3604B87CC1C271A /* PYRoamController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYRoamController.m; path = "iOS-Echarts/Model/PYRoamController.m"; sourceTree = "<group>"; };
+		4FD178DBF47BDC24E8170257AB2E4777 /* PYLineStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLineStyle.m; path = "iOS-Echarts/Model/PYLineStyle.m"; sourceTree = "<group>"; };
+		4FE19668CC5FACB1AB2EABD33F763881 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		50EE929EF4E5AE3CC408845787BBBA19 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		50F2F8B653A42017260B3791243EDAFE /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		527AA020E6C282E48A061FD8B7E2CB62 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		56FAB292A6EB7E76547FA42FB7E25141 /* PYTimeline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTimeline.m; path = "iOS-Echarts/Model/PYTimeline.m"; sourceTree = "<group>"; };
+		58166D7F86AD7B5D785B9B5EF552EDDC /* libPods-WeexDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeexDemo.a"; path = "libPods-WeexDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E0C570AE52CC2E412C33EAF34F1DD3 /* PYLinkStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLinkStyle.h; path = "iOS-Echarts/Model/PYLinkStyle.h"; sourceTree = "<group>"; };
+		59D6B43EEE741CB8A852AA58988DA3C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A78B98502CBB1BA430D7652F0CF115F /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		5B47334875EE2100A4F95A02B2D9C0CF /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		5B5E9685E9FB485A1D6F6072B83FF532 /* PYChordStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYChordStyle.m; path = "iOS-Echarts/Model/PYChordStyle.m"; sourceTree = "<group>"; };
+		5C02288C7DCF1148EAF4A831C1EA0DE1 /* PYCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYCategories.h; path = "iOS-Echarts/Model/PYCategories.h"; sourceTree = "<group>"; };
+		5C137A3212767FC40F612765F4867B93 /* PYToolboxFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYToolboxFeature.m; path = "iOS-Echarts/Model/PYToolboxFeature.m"; sourceTree = "<group>"; };
+		5D7C7D219B5969A4754D735D3581BD12 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		5EDA32D1AB6A368094C04B384EE3A994 /* PYTimeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTimeline.h; path = "iOS-Echarts/Model/PYTimeline.h"; sourceTree = "<group>"; };
+		611ECF7C976CD4B9F2B6BEE55A97CFAE /* PYDataRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYDataRange.m; path = "iOS-Echarts/Model/PYDataRange.m"; sourceTree = "<group>"; };
+		6171C69119F3CF3A0E2A5D822885A601 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		61CCC4384DFC7395F0B0009DD6B4A171 /* WKEchartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKEchartsView.m; path = "iOS-Echarts/View/WKEchartsView.m"; sourceTree = "<group>"; };
+		61EECB2D88E08CFD720108AFAAAB1857 /* PYAxisLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisLine.h; path = "iOS-Echarts/Model/PYAxisLine.h"; sourceTree = "<group>"; };
+		627B6116FBF8DB94B46CA2CE01CC797E /* PYItemStyleProp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYItemStyleProp.h; path = "iOS-Echarts/Model/PYItemStyleProp.h"; sourceTree = "<group>"; };
+		62C3F11B2DE7056F4ED010176305F239 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		64E506EB5F6B08CE5C564F51F2168437 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		65752668EE4FFEC159717026106C7430 /* iOS-Echarts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "iOS-Echarts.h"; path = "iOS-Echarts/iOS-Echarts.h"; sourceTree = "<group>"; };
+		66B4AD10CB076EC2B079577970575300 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		67BE63B6A0E4BBC08FF0BC93E8289377 /* PYTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTitle.h; path = "iOS-Echarts/Model/PYTitle.h"; sourceTree = "<group>"; };
+		685998A9E55520B21875A018E789319C /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		6BEED744BD24026E4A88A58BF783CCCA /* PYNodes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYNodes.m; path = "iOS-Echarts/Model/PYNodes.m"; sourceTree = "<group>"; };
+		702A665DA0EA02FF799C75411336B210 /* PYDataZoom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYDataZoom.m; path = "iOS-Echarts/Model/PYDataZoom.m"; sourceTree = "<group>"; };
+		7047714560D9CA4B36F8B7226B34DCF8 /* libiOS-Echarts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libiOS-Echarts.a"; path = "libiOS-Echarts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		713C11F67EC3D3C30BC02F4DB2CED472 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		724CD7B8AD54018EBEBD25DDAFB2AAE5 /* PYSplitArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYSplitArea.h; path = "iOS-Echarts/Model/PYSplitArea.h"; sourceTree = "<group>"; };
+		72DF2E7C13F24E0FDDB77F27D96EB500 /* PYEventRiverSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYEventRiverSeries.m; path = "iOS-Echarts/Model/Series/PYEventRiverSeries.m"; sourceTree = "<group>"; };
+		73B455E2807C564AB02EE7BD5564D6D8 /* js */ = {isa = PBXFileReference; includeInIndex = 1; name = js; path = "iOS-Echarts/Resources/js"; sourceTree = "<group>"; };
+		742F8306E567AEF8316A3ACF9B925D41 /* PYTreeMapSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTreeMapSeries.h; path = "iOS-Echarts/Model/Series/PYTreeMapSeries.h"; sourceTree = "<group>"; };
+		74ED1C5C70A38C0394A71A46711AA415 /* PYDataZoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYDataZoom.h; path = "iOS-Echarts/Model/PYDataZoom.h"; sourceTree = "<group>"; };
+		76774F93F95ACBCB3638F63058ED10B6 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		7790EDE07EBB88393394092766AF4023 /* PYColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYColor.h; path = "iOS-Echarts/Model/PYColor.h"; sourceTree = "<group>"; };
+		77EE048450C4DF867D967B36E9E50C6D /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		7880263EA161FEFF6671CFB1FCF723E7 /* Pods-WeexDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A4F9A46999C9F21739F1FBA0B23A8E1 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		7C6818CEE2B50A4977A92F16C7F9B5C2 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		7F216DFAC7C50996F2DFDF623D7AE88F /* PYAxisTick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisTick.m; path = "iOS-Echarts/Model/PYAxisTick.m"; sourceTree = "<group>"; };
+		7F377CBAD47939A0117AB02C6D623300 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		7F423FD44A5998021955EC146BFC674B /* PYCartesianSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYCartesianSeries.h; path = "iOS-Echarts/Model/Series/PYCartesianSeries.h"; sourceTree = "<group>"; };
+		81CEA6497C9ACB02A704BA0DF5366426 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		82452EAE08246112BC0E93518135F01C /* PYTextStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTextStyle.m; path = "iOS-Echarts/Model/PYTextStyle.m"; sourceTree = "<group>"; };
+		83313B8F5622357AE2C7956BF4CF2E65 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		85240A0E92F9819B35D4D79F62DE5426 /* PYRadarSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYRadarSeries.m; path = "iOS-Echarts/Model/Series/PYRadarSeries.m"; sourceTree = "<group>"; };
+		8561D9788D138264DEF7D4906BAD7A5D /* Pods-WeexDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85ED9F4803EF5FD8F4FDF1ECF970A9F3 /* PYPolar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPolar.h; path = "iOS-Echarts/Model/PYPolar.h"; sourceTree = "<group>"; };
+		868526E20B70FF12B156B173EEFF3D17 /* PYGaugeSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYGaugeSeries.m; path = "iOS-Echarts/Model/Series/PYGaugeSeries.m"; sourceTree = "<group>"; };
+		87182940E75A8D693F50432C6FA18843 /* PYLegend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLegend.h; path = "iOS-Echarts/Model/PYLegend.h"; sourceTree = "<group>"; };
+		873E1E763B98DA1D82E217BDF1B3091B /* PYGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYGrid.h; path = "iOS-Echarts/Model/PYGrid.h"; sourceTree = "<group>"; };
+		8B91706144ECD008AABFCC2E4BB5D836 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		8C3828B16D689D046D279E403526C919 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		8EB277506C2D7B3A2748CD948C2A3B7E /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		8F0BC363A566CA0EC5FC02D6715C6598 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		8F418423E27B02BED70560BFBC7615C6 /* PYMarkPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYMarkPoint.h; path = "iOS-Echarts/Model/Series/PYMarkPoint.h"; sourceTree = "<group>"; };
+		8F55CB9BF6817BFBCC9B2694CAF5BEA7 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		903CBB6E20602E44F87F2339579C2F0C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		904488B6622E7D8D401DEF5DD2E655F5 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940FB9752FF44ECE5391AB4805C0A266 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		9452737B4E0236EB7033FE546D503334 /* PYAxisPointer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisPointer.m; path = "iOS-Echarts/Model/PYAxisPointer.m"; sourceTree = "<group>"; };
+		94A9B57FCB0527DB64B73B2A1F917C01 /* PYOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYOption.h; path = "iOS-Echarts/Model/PYOption.h"; sourceTree = "<group>"; };
+		96B09BF4600482AEADC1B48F209BD8D1 /* PYGaugeSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYGaugeSeries.h; path = "iOS-Echarts/Model/Series/PYGaugeSeries.h"; sourceTree = "<group>"; };
+		990C323D163903E9C4AB59135D7CB8FF /* PYUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYUtilities.h; path = "iOS-Echarts/PYUtilities.h"; sourceTree = "<group>"; };
+		99B00A428005B900ED542C7C40DB3099 /* PYTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTitle.m; path = "iOS-Echarts/Model/PYTitle.m"; sourceTree = "<group>"; };
+		9B00551F331ABE25B3F9617C788A5E10 /* iOS-Echarts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Echarts.xcconfig"; sourceTree = "<group>"; };
+		9C8694621881E2FDF7E83C106E9A0C25 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		9E68C84F2BABCA1D547B6E6D50CBEDC5 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		9F13EB2A1A8C2BF9F33EAA20B9DC619C /* WKEchartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKEchartsView.h; path = "iOS-Echarts/View/WKEchartsView.h"; sourceTree = "<group>"; };
+		A09387E1AC3C0B9169279C3D93B56CFC /* PYAreaStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAreaStyle.h; path = "iOS-Echarts/Model/PYAreaStyle.h"; sourceTree = "<group>"; };
+		A123EFDF65DA8E4C16A28D916E2F4865 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		A20DC04FBAF1D0316E10F5161683DAFC /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		A2DEF1E48E54B6C4349A841D214CA417 /* PYToolbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYToolbox.m; path = "iOS-Echarts/Model/PYToolbox.m"; sourceTree = "<group>"; };
+		A4305F054C62621EA33C75F83CB178A8 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		A8B4EB4D3EADD7253503ED94619C4565 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		A8C0F934700180D69FABC91DCB8E769E /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		A90D0ADA6235FC47B127D0DFCAF2A904 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		A99C338B3EB406A4857DD47CF02F8B64 /* PYColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYColor.m; path = "iOS-Echarts/Model/PYColor.m"; sourceTree = "<group>"; };
+		A9A02220CDB37FA55D83ABE72475C786 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		A9AB7971E82AD64410EAE92C738AAF7B /* PYSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYSeries.h; path = "iOS-Echarts/Model/Series/PYSeries.h"; sourceTree = "<group>"; };
+		AC66E81D6517CB32E26A17FD214D61B4 /* PYSplitArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYSplitArea.m; path = "iOS-Echarts/Model/PYSplitArea.m"; sourceTree = "<group>"; };
+		AD0FA3F194807E0034AFB4ABC286717D /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		ADECF3D7475D1944BD48050A060403CC /* PYEchartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYEchartsView.h; path = "iOS-Echarts/View/PYEchartsView.h"; sourceTree = "<group>"; };
+		AE62E4E4E92FABD6515EE407E7C3ED17 /* PYLoadingOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLoadingOption.m; path = "iOS-Echarts/Model/PYLoadingOption.m"; sourceTree = "<group>"; };
+		AF6FC4F1C18E24AAC8C72C6A71E62C85 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		AFCEB20DF31E1E94102267FA7C13A970 /* PYAxisSplitLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisSplitLine.h; path = "iOS-Echarts/Model/PYAxisSplitLine.h"; sourceTree = "<group>"; };
+		B3E24C5BF27546B2F01E4F9C023B7B34 /* PYMapSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYMapSeries.h; path = "iOS-Echarts/Model/Series/PYMapSeries.h"; sourceTree = "<group>"; };
+		B415BD7D3C11D5528E2A487B0334D2C7 /* wx_load_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wx_load_error@3x.png"; path = "WeexSDK.framework/wx_load_error@3x.png"; sourceTree = "<group>"; };
+		B455F87FBDE21AE072749A6874E01FFA /* PYVennSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYVennSeries.h; path = "iOS-Echarts/Model/Series/PYVennSeries.h"; sourceTree = "<group>"; };
+		B630691A57DE1B6D7922609016F8676D /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70A43244D7981086E3691B9464F348F /* PYAxisLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisLabel.h; path = "iOS-Echarts/Model/PYAxisLabel.h"; sourceTree = "<group>"; };
+		B78D0FD4846CA4BD3758C6B73F98CA4A /* PYDataRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYDataRange.h; path = "iOS-Echarts/Model/PYDataRange.h"; sourceTree = "<group>"; };
+		B7AF360D27A262FF4FA36F2CF8647290 /* PYJsonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYJsonUtil.m; path = "iOS-Echarts/Util/PYJsonUtil.m"; sourceTree = "<group>"; };
+		B8033D47CCA3DCD5EFA0C02AC19C7316 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		B81B6C10F420C623D3EDC9AE17A3ED76 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		B92480CA541B67389AE22DE20AE94252 /* PYPieSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPieSeries.h; path = "iOS-Echarts/Model/Series/PYPieSeries.h"; sourceTree = "<group>"; };
+		BABE734F38A1792574C6247EF3C71836 /* PYMarkPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYMarkPoint.m; path = "iOS-Echarts/Model/Series/PYMarkPoint.m"; sourceTree = "<group>"; };
+		BB6B824DCB1ED28EDA56C3164CB8506D /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		BBA07C2825CDC40CDF3C7AFBD39C8BAA /* PYChordSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYChordSeries.m; path = "iOS-Echarts/Model/Series/PYChordSeries.m"; sourceTree = "<group>"; };
+		BC544AA583D97D5B04BD39904AF50BE4 /* PYTreeSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTreeSeries.h; path = "iOS-Echarts/Model/Series/PYTreeSeries.h"; sourceTree = "<group>"; };
+		BC88452EAA2B93583BEA62FC025E76ED /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		BDEE37B0E9D4D0D7B148893CA6913EE5 /* PYLoadingOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLoadingOption.h; path = "iOS-Echarts/Model/PYLoadingOption.h"; sourceTree = "<group>"; };
+		BE98D0B84ED100A4456AAFD74372020B /* PYRadarSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYRadarSeries.h; path = "iOS-Echarts/Model/Series/PYRadarSeries.h"; sourceTree = "<group>"; };
+		BEB63644653E001064B8B2FB8CCDEB7B /* PYAxisTick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisTick.h; path = "iOS-Echarts/Model/PYAxisTick.h"; sourceTree = "<group>"; };
+		C06D16233F1A7B792F139750CB91E05E /* theme */ = {isa = PBXFileReference; includeInIndex = 1; name = theme; path = "iOS-Echarts/Resources/theme"; sourceTree = "<group>"; };
+		C098D6BA4300BC9CBB1F4814595EE235 /* PYLinks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLinks.m; path = "iOS-Echarts/Model/PYLinks.m"; sourceTree = "<group>"; };
+		C164B04211290CC811284E8FAB3512D1 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		C16A56FD15532498B0DFB734CEA7C087 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		C28DE87C2D40F8BD98F334818F4713A6 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		C47D3806D2BE134E7565FAE8B79C9FF6 /* PYEchartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYEchartsView.m; path = "iOS-Echarts/View/PYEchartsView.m"; sourceTree = "<group>"; };
+		C61140E21BE05B3716B137A2A3C46B6A /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82BC024EC3B35CCC89F93DF47936C73 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		C93AB8959E7229230A4C91DCE426A6BF /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		C949FC63DA2CFDB74629146155894BDC /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		CB06819B0019FC94B23DF56FA86B041B /* PYNodeStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYNodeStyle.h; path = "iOS-Echarts/Model/PYNodeStyle.h"; sourceTree = "<group>"; };
+		D157B75DB895A58E6432081FA57315B7 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D39D28E14F54A0B63C5430E0A5DC7DDB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D3F8C5DD8DA19B6E63361946BB5CC943 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		D43C61CA6ACDF1148CCD49B01C481D1E /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		D502AC765852C10D729E5F6CB9E9FF9E /* PYChordStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYChordStyle.h; path = "iOS-Echarts/Model/PYChordStyle.h"; sourceTree = "<group>"; };
+		D5D39180AC9D52D8AE6845D7FFC46C15 /* PYZoomEchartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYZoomEchartsView.m; path = "iOS-Echarts/View/PYZoomEchartsView.m"; sourceTree = "<group>"; };
+		D62B26F73993B92FDAB8EAE88FDC0743 /* NSObject+PYObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PYObject.h"; path = "iOS-Echarts/Categories/NSObject+PYObject.h"; sourceTree = "<group>"; };
+		D8A6FA144812635998C58FA141CB5918 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		DC90DCCF8E850A26DA587242120BAA3C /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		DCA170CBEED85F6F7D7CC405C8DDEE2A /* TBWXDevTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBWXDevTool.framework; sourceTree = "<group>"; };
+		DCA90AC2AD5F45DD265517E3BEB39643 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		DD21B0BA68E73C4EFB14E6D4CFE3445E /* PYItemStyleProp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYItemStyleProp.m; path = "iOS-Echarts/Model/PYItemStyleProp.m"; sourceTree = "<group>"; };
+		E0614EF71F2B166D3C38BC6564B92452 /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "native-bundle-main.js"; path = "WeexSDK.framework/native-bundle-main.js"; sourceTree = "<group>"; };
+		E083EEF6A896E55094A3D2EBB1825910 /* Pods-WeexDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexDemo-resources.sh"; sourceTree = "<group>"; };
+		E10C9215D8115F99ABFA9616560AAC2E /* PYFunnelSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYFunnelSeries.m; path = "iOS-Echarts/Model/Series/PYFunnelSeries.m"; sourceTree = "<group>"; };
+		E1588A1E3E8E6CB07FBDD3AF7B311339 /* PYToolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYToolbox.h; path = "iOS-Echarts/Model/PYToolbox.h"; sourceTree = "<group>"; };
+		E1BEB4B158C0CCE7BF2D75094103A8FC /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		E24489521E726BB5157CE3331A1D73B7 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		E328FB6897AA3F1BFCA6961DA632B056 /* PYEventRiverSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYEventRiverSeries.h; path = "iOS-Echarts/Model/Series/PYEventRiverSeries.h"; sourceTree = "<group>"; };
+		E3E8B2F35A5DD78A5C3BB22777B17FF8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		E4D4A8EFA9712AEFA4B556ED83D8529D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E5F4677C101E46A5C0367EEA9A4EF950 /* Pods-WeexDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexDemo-dummy.m"; sourceTree = "<group>"; };
+		EA756EAE08D93E3181E70AF101A5F50C /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		EB87E073DCB2DF6C7744F58B35668E3F /* PYTreeMapSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTreeMapSeries.m; path = "iOS-Echarts/Model/Series/PYTreeMapSeries.m"; sourceTree = "<group>"; };
+		EC2D30CD47DF3530A99EDBA9EB019B9E /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		ED751187303EB6345A93A992062765B7 /* PYTooltip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTooltip.h; path = "iOS-Echarts/Model/PYTooltip.h"; sourceTree = "<group>"; };
+		EE55038BB0E1D41B032C4262903187CD /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		F0AECEDDB336DB9CC6900F25A20364C1 /* PYPieSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYPieSeries.m; path = "iOS-Echarts/Model/Series/PYPieSeries.m"; sourceTree = "<group>"; };
+		F1BF4DCA1FC1D38AAE818D56D07A36BD /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F20F61DC62BD0EB11BCAC52C3DEC93F2 /* PYWordCloudSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYWordCloudSeries.m; path = "iOS-Echarts/Model/Series/PYWordCloudSeries.m"; sourceTree = "<group>"; };
+		F34AE4DD6EA96A179078A05862A8B7C2 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		F37C22DFF0EBE96461D7870DC661824D /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		F48A16C0D4F7D8866A2CC78E5BF6FE29 /* PYNoDataLoadingOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYNoDataLoadingOption.h; path = "iOS-Echarts/Model/PYNoDataLoadingOption.h"; sourceTree = "<group>"; };
+		F60B7E05B19E7903B56B42F194B0ADBB /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexSDK.framework; sourceTree = "<group>"; };
+		F614730BF9E51FB493A1D8DD31841BA8 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		F77C01CFA63B8C5CBA18ABC56DE9A172 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		F7FE63E78EC910BB01250F9CD6AE5A5E /* PYAreaStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAreaStyle.m; path = "iOS-Echarts/Model/PYAreaStyle.m"; sourceTree = "<group>"; };
+		F8BDBF34EE57F5D7522733D1C4FD1CFD /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		F8C9AB5EE69E2F40C4E42E8289026DF2 /* PYNoDataLoadingOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYNoDataLoadingOption.m; path = "iOS-Echarts/Model/PYNoDataLoadingOption.m"; sourceTree = "<group>"; };
+		FC0E680C9A2F21591BC362772B365F1E /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		FC2AE00021F38BEEAD933AA70AF3FB3A /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		FCD91B5DD86242F53A74DDEDCDB25C3C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		FDCBF24370B32B5EF7B4D7E63F752F66 /* iOS-Echarts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Echarts-prefix.pch"; sourceTree = "<group>"; };
+		FE8B4ADA9A4379A67FD0A01069DBC28E /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		FEE348D054EB9C541DA5AC88EE199C7C /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		FFF01A64A7CC145C929EDFA749F65950 /* PYFunnelSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYFunnelSeries.h; path = "iOS-Echarts/Model/Series/PYFunnelSeries.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D050F63507D01098DE8182A57DECA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BAFA14B602502A689296A0B2B3705D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34FFB52054BCAE9EB809668F5555F91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494834B1CC86A214DD97319D0139FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4C070808E523EC12CA8F9B8090B48 /* Foundation.framework in Frameworks */,
+				F82C185FC98954D3FB47E94CE712973F /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974DE0B11AABCFE227D2E9237739EBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBB848F70FF75B42621581A26786FBF /* Foundation.framework in Frameworks */,
+				1EEC557E5DC012D04FB181415C98525A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD371DC2758CB1467B3846AB880B8EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5312BD4AF28A1F7FE2B956CE4DF63FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F4C0F63A7FCC40CF4A01F9A14405EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC12BC47EFA90DE45A96999CF68B56DE /* CFNetwork.framework in Frameworks */,
+				50A515390AB209F1817CF810D83273B2 /* Foundation.framework in Frameworks */,
+				7000D3441912D6E275B8311734F5B423 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FFA9BD201F7FCE2311B14D2E5AA8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71530448B7A282746853F4718DCA267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0391BB862269B73EC5D63CE5EDD8F4DB /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				3F297DC40536A4BB5FA62BB3CCB3298C /* MJRefresh.h */,
+				BC88452EAA2B93583BEA62FC025E76ED /* MJRefreshAutoFooter.h */,
+				AD0FA3F194807E0034AFB4ABC286717D /* MJRefreshAutoFooter.m */,
+				486AD4FDE5BD88FC9CA8F1BE31C13093 /* MJRefreshAutoGifFooter.h */,
+				4DFDCCD1BB569690095EC4CDC13DE4C9 /* MJRefreshAutoGifFooter.m */,
+				527AA020E6C282E48A061FD8B7E2CB62 /* MJRefreshAutoNormalFooter.h */,
+				C82BC024EC3B35CCC89F93DF47936C73 /* MJRefreshAutoNormalFooter.m */,
+				F37C22DFF0EBE96461D7870DC661824D /* MJRefreshAutoStateFooter.h */,
+				EA756EAE08D93E3181E70AF101A5F50C /* MJRefreshAutoStateFooter.m */,
+				D157B75DB895A58E6432081FA57315B7 /* MJRefreshBackFooter.h */,
+				9E68C84F2BABCA1D547B6E6D50CBEDC5 /* MJRefreshBackFooter.m */,
+				0D1E7494CAF6EA79DED3886272FB39F8 /* MJRefreshBackGifFooter.h */,
+				713C11F67EC3D3C30BC02F4DB2CED472 /* MJRefreshBackGifFooter.m */,
+				30FF2C300E2A990BC4C3E49F8AFC44BB /* MJRefreshBackNormalFooter.h */,
+				40ACD7588CE247676B7A3E82163FC328 /* MJRefreshBackNormalFooter.m */,
+				5B47334875EE2100A4F95A02B2D9C0CF /* MJRefreshBackStateFooter.h */,
+				8B91706144ECD008AABFCC2E4BB5D836 /* MJRefreshBackStateFooter.m */,
+				D8A6FA144812635998C58FA141CB5918 /* MJRefreshComponent.h */,
+				FC0E680C9A2F21591BC362772B365F1E /* MJRefreshComponent.m */,
+				21D958F2B624CCAB5E73DAE5B8B076B4 /* MJRefreshConst.h */,
+				26C2036DC6AA0F44A9B0409235BFC14F /* MJRefreshConst.m */,
+				904488B6622E7D8D401DEF5DD2E655F5 /* MJRefreshFooter.h */,
+				D3F8C5DD8DA19B6E63361946BB5CC943 /* MJRefreshFooter.m */,
+				5A78B98502CBB1BA430D7652F0CF115F /* MJRefreshGifHeader.h */,
+				F614730BF9E51FB493A1D8DD31841BA8 /* MJRefreshGifHeader.m */,
+				4FE19668CC5FACB1AB2EABD33F763881 /* MJRefreshHeader.h */,
+				0DDCE2A105FE16E751E5EEA10521B61C /* MJRefreshHeader.m */,
+				01A07E5D3526BAC67482662E3486E0F4 /* MJRefreshNormalHeader.h */,
+				81CEA6497C9ACB02A704BA0DF5366426 /* MJRefreshNormalHeader.m */,
+				C28DE87C2D40F8BD98F334818F4713A6 /* MJRefreshStateHeader.h */,
+				1CCFB70C738007F5AF64C278AE30231C /* MJRefreshStateHeader.m */,
+				7C6818CEE2B50A4977A92F16C7F9B5C2 /* NSBundle+MJRefresh.h */,
+				A4305F054C62621EA33C75F83CB178A8 /* NSBundle+MJRefresh.m */,
+				A20DC04FBAF1D0316E10F5161683DAFC /* UIScrollView+MJExtension.h */,
+				C164B04211290CC811284E8FAB3512D1 /* UIScrollView+MJExtension.m */,
+				C949FC63DA2CFDB74629146155894BDC /* UIScrollView+MJRefresh.h */,
+				AF6FC4F1C18E24AAC8C72C6A71E62C85 /* UIScrollView+MJRefresh.m */,
+				8F55CB9BF6817BFBCC9B2694CAF5BEA7 /* UIView+MJExtension.h */,
+				DC90DCCF8E850A26DA587242120BAA3C /* UIView+MJExtension.m */,
+				63F541C9B7392F4E3D471F0619AF1581 /* Resources */,
+				0F24267F5AC8DFC8C24DFDAC876876A7 /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		085E428210F64096F01DB7B7267DA9E2 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				39AE3E80AAAA4CEBFB1E72FF6810C583 /* Core */,
+				6181E2D7CCDB6B0F00D2A7F02909C2EB /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		0F24267F5AC8DFC8C24DFDAC876876A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A02220CDB37FA55D83ABE72475C786 /* MJRefresh.xcconfig */,
+				4D6CE114EB894B9807D6F16C87077DEE /* MJRefresh-dummy.m */,
+				33F623F33AB8A611557043068CEFD81B /* MJRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64EE3DB8A0532C55C73E3B3BA20175BF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C23D47B6B017EE930D529EC7B17EF30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48A977848805C528988D31D324A2A25D /* echarts.html */,
+				73B455E2807C564AB02EE7BD5564D6D8 /* js */,
+				C06D16233F1A7B792F139750CB91E05E /* theme */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2C67BF8328A1BCAD9BDD5F803276CA76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0614EF71F2B166D3C38BC6564B92452 /* native-bundle-main.js */,
+				B415BD7D3C11D5528E2A487B0334D2C7 /* wx_load_error@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		37B3F72634A6193056F4A2FC8AB9BD04 /* WXDevtool */ = {
+			isa = PBXGroup;
+			children = (
+				7531FD8A8878EDE18A752D688FA71610 /* Frameworks */,
+			);
+			name = WXDevtool;
+			path = WXDevtool;
+			sourceTree = "<group>";
+		};
+		39AE3E80AAAA4CEBFB1E72FF6810C583 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				389E7031F5EE985B06395F9E3B846FC0 /* NSData+ImageContentType.h */,
+				A123EFDF65DA8E4C16A28D916E2F4865 /* NSData+ImageContentType.m */,
+				A90D0ADA6235FC47B127D0DFCAF2A904 /* NSImage+WebCache.h */,
+				EE55038BB0E1D41B032C4262903187CD /* NSImage+WebCache.m */,
+				494144BCAA79B3E233F59261FEF81A77 /* SDImageCache.h */,
+				4146288CB27D25844E89E0772BFACB08 /* SDImageCache.m */,
+				082036F3535B3252F077277AC1ADA305 /* SDImageCacheConfig.h */,
+				11337D1E521663883ABB4B1429699461 /* SDImageCacheConfig.m */,
+				76774F93F95ACBCB3638F63058ED10B6 /* SDWebImageCompat.h */,
+				E3E8B2F35A5DD78A5C3BB22777B17FF8 /* SDWebImageCompat.m */,
+				E24489521E726BB5157CE3331A1D73B7 /* SDWebImageDecoder.h */,
+				903CBB6E20602E44F87F2339579C2F0C /* SDWebImageDecoder.m */,
+				26D87FC48EADC68A6EDE32CF956F7152 /* SDWebImageDownloader.h */,
+				FCD91B5DD86242F53A74DDEDCDB25C3C /* SDWebImageDownloader.m */,
+				4DF70A12CA0C94CF392A82D2630B5965 /* SDWebImageDownloaderOperation.h */,
+				1945EA633A13DE033716440B7B1185D7 /* SDWebImageDownloaderOperation.m */,
+				0056F058A5252C75A2DA51BBA806655C /* SDWebImageManager.h */,
+				0467422A1665FD2C1C86C2CF1F9DBEDB /* SDWebImageManager.m */,
+				8C3828B16D689D046D279E403526C919 /* SDWebImageOperation.h */,
+				A8B4EB4D3EADD7253503ED94619C4565 /* SDWebImagePrefetcher.h */,
+				940FB9752FF44ECE5391AB4805C0A266 /* SDWebImagePrefetcher.m */,
+				64E506EB5F6B08CE5C564F51F2168437 /* UIButton+WebCache.h */,
+				6171C69119F3CF3A0E2A5D822885A601 /* UIButton+WebCache.m */,
+				EC2D30CD47DF3530A99EDBA9EB019B9E /* UIImage+GIF.h */,
+				F34AE4DD6EA96A179078A05862A8B7C2 /* UIImage+GIF.m */,
+				F1BF4DCA1FC1D38AAE818D56D07A36BD /* UIImage+MultiFormat.h */,
+				7A4F9A46999C9F21739F1FBA0B23A8E1 /* UIImage+MultiFormat.m */,
+				45F29681E10A26CBBA4A37606AE4CE3E /* UIImageView+HighlightedWebCache.h */,
+				B8033D47CCA3DCD5EFA0C02AC19C7316 /* UIImageView+HighlightedWebCache.m */,
+				0B2AF46630EFC1DA889F998DDF28EDA8 /* UIImageView+WebCache.h */,
+				F77C01CFA63B8C5CBA18ABC56DE9A172 /* UIImageView+WebCache.m */,
+				50EE929EF4E5AE3CC408845787BBBA19 /* UIView+WebCache.h */,
+				685998A9E55520B21875A018E789319C /* UIView+WebCache.m */,
+				30F0FABF982955D7238860342FE5B729 /* UIView+WebCacheOperation.h */,
+				A8C0F934700180D69FABC91DCB8E769E /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3B39F1EEC530AB9F8614541C19F66BBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB212F2BA0A2CE8AF050C6CE5705F5C1 /* iOS-Echarts */,
+				EB9B7229F082B71A1D07F97BCE40D3EA /* JSONModel */,
+				0391BB862269B73EC5D63CE5EDD8F4DB /* MJRefresh */,
+				085E428210F64096F01DB7B7267DA9E2 /* SDWebImage */,
+				6BBECEAFA6D879A5399855B3CEE8C53C /* SocketRocket */,
+				7A48CD36C85F9273B8186CA40F9BFF7E /* WeexSDK */,
+				37B3F72634A6193056F4A2FC8AB9BD04 /* WXDevtool */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		539AC66F0F50342A09C088C7221C8C06 /* Pods-WeexDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8561D9788D138264DEF7D4906BAD7A5D /* Pods-WeexDemo-acknowledgements.markdown */,
+				7880263EA161FEFF6671CFB1FCF723E7 /* Pods-WeexDemo-acknowledgements.plist */,
+				E5F4677C101E46A5C0367EEA9A4EF950 /* Pods-WeexDemo-dummy.m */,
+				46DFD495A50DF965AB6635EA96415ED2 /* Pods-WeexDemo-frameworks.sh */,
+				E083EEF6A896E55094A3D2EBB1825910 /* Pods-WeexDemo-resources.sh */,
+				3BC35F9DBFBC41A4ACBE8AFCA3244952 /* Pods-WeexDemo.debug.xcconfig */,
+				2206FC95F323EC80B343159F109CE818 /* Pods-WeexDemo.release.xcconfig */,
+			);
+			name = "Pods-WeexDemo";
+			path = "Target Support Files/Pods-WeexDemo";
+			sourceTree = "<group>";
+		};
+		6181E2D7CCDB6B0F00D2A7F02909C2EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43C61CA6ACDF1148CCD49B01C481D1E /* SDWebImage.xcconfig */,
+				83313B8F5622357AE2C7956BF4CF2E65 /* SDWebImage-dummy.m */,
+				4720DF0857D13DF73D4496D56D2A7474 /* SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		63F541C9B7392F4E3D471F0619AF1581 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35F09D693D715482E267CC469AE79511 /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		64EE3DB8A0532C55C73E3B3BA20175BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D39D28E14F54A0B63C5430E0A5DC7DDB /* CFNetwork.framework */,
+				D1DA156C55D81F835E2763FA2305156C /* Foundation.framework */,
+				3282C574A7CACE0F4BE8673AAC411D51 /* ImageIO.framework */,
+				E4D4A8EFA9712AEFA4B556ED83D8529D /* Security.framework */,
+				59D6B43EEE741CB8A852AA58988DA3C8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BBECEAFA6D879A5399855B3CEE8C53C /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				50F2F8B653A42017260B3791243EDAFE /* SocketRocket.h */,
+				2AD57BA45EB936E4ACC2DEEB8EA871CB /* SRWebSocket.h */,
+				3FD0902C7A00074F9DFAD3F85DB0FA69 /* SRWebSocket.m */,
+				878B96DA966946C9A5842069268A5D0D /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		7531FD8A8878EDE18A752D688FA71610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCA170CBEED85F6F7D7CC405C8DDEE2A /* TBWXDevTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A48CD36C85F9273B8186CA40F9BFF7E /* WeexSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D3732C67A1A82680B56DC330DB4E9F8F /* Frameworks */,
+				2C67BF8328A1BCAD9BDD5F803276CA76 /* Resources */,
+			);
+			name = WeexSDK;
+			path = WeexSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				3B39F1EEC530AB9F8614541C19F66BBA /* Pods */,
+				F1BB8C37C0A7721AD7097DB8C5F39375 /* Products */,
+				E915810940471ED898BCF22FB1A8A4BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		878B96DA966946C9A5842069268A5D0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BDBF34EE57F5D7522733D1C4FD1CFD /* SocketRocket.xcconfig */,
+				FC2AE00021F38BEEAD933AA70AF3FB3A /* SocketRocket-dummy.m */,
+				3653DE7C82EAB433A4665D96633C65DD /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		897EDF7EEE02DE21C9D6425CE07C3F18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B00551F331ABE25B3F9617C788A5E10 /* iOS-Echarts.xcconfig */,
+				1BCE2BA1627270289B8F8212E2A7F7C6 /* iOS-Echarts-dummy.m */,
+				FDCBF24370B32B5EF7B4D7E63F752F66 /* iOS-Echarts-prefix.pch */,
+				16F2ABEF1A7613277054AD82027451AF /* ResourceBundle-iOS-Echarts-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-Echarts";
+			sourceTree = "<group>";
+		};
+		D3732C67A1A82680B56DC330DB4E9F8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F60B7E05B19E7903B56B42F194B0ADBB /* WeexSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27BBA562A37789FFDB9BD23923397F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F377CBAD47939A0117AB02C6D623300 /* JSONModel.xcconfig */,
+				25B2DAAC8E95302DC477AE2F1FF44E90 /* JSONModel-dummy.m */,
+				C16A56FD15532498B0DFB734CEA7C087 /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		E915810940471ED898BCF22FB1A8A4BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				539AC66F0F50342A09C088C7221C8C06 /* Pods-WeexDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB9B7229F082B71A1D07F97BCE40D3EA /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				B81B6C10F420C623D3EDC9AE17A3ED76 /* JSONAPI.h */,
+				8F0BC363A566CA0EC5FC02D6715C6598 /* JSONAPI.m */,
+				8EB277506C2D7B3A2748CD948C2A3B7E /* JSONHTTPClient.h */,
+				FEE348D054EB9C541DA5AC88EE199C7C /* JSONHTTPClient.m */,
+				0C9E107B92C1F5F562F1632409E01047 /* JSONKeyMapper.h */,
+				77EE048450C4DF867D967B36E9E50C6D /* JSONKeyMapper.m */,
+				5D7C7D219B5969A4754D735D3581BD12 /* JSONModel.h */,
+				DCA90AC2AD5F45DD265517E3BEB39643 /* JSONModel.m */,
+				BB6B824DCB1ED28EDA56C3164CB8506D /* JSONModel+networking.h */,
+				C93AB8959E7229230A4C91DCE426A6BF /* JSONModel+networking.m */,
+				FE8B4ADA9A4379A67FD0A01069DBC28E /* JSONModelClassProperty.h */,
+				9C8694621881E2FDF7E83C106E9A0C25 /* JSONModelClassProperty.m */,
+				2CB42F975DDB851CF8F76EE7EAC73BCE /* JSONModelError.h */,
+				62C3F11B2DE7056F4ED010176305F239 /* JSONModelError.m */,
+				66B4AD10CB076EC2B079577970575300 /* JSONModelLib.h */,
+				4B5B977B2A4CEE82FE4FB8C38607F53C /* JSONValueTransformer.h */,
+				E1BEB4B158C0CCE7BF2D75094103A8FC /* JSONValueTransformer.m */,
+				E27BBA562A37789FFDB9BD23923397F6 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		F1BB8C37C0A7721AD7097DB8C5F39375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D0DD3B888A8C3C3BCFD3077D5BB0E /* iOS-Echarts.bundle */,
+				7047714560D9CA4B36F8B7226B34DCF8 /* libiOS-Echarts.a */,
+				21C9334F63F8584BFCC0C6251D9EFBC4 /* libJSONModel.a */,
+				0DB9B4442ABA1B13D468DEADDDD66B33 /* libMJRefresh.a */,
+				58166D7F86AD7B5D785B9B5EF552EDDC /* libPods-WeexDemo.a */,
+				C61140E21BE05B3716B137A2A3C46B6A /* libSDWebImage.a */,
+				B630691A57DE1B6D7922609016F8676D /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB212F2BA0A2CE8AF050C6CE5705F5C1 /* iOS-Echarts */ = {
+			isa = PBXGroup;
+			children = (
+				65752668EE4FFEC159717026106C7430 /* iOS-Echarts.h */,
+				D62B26F73993B92FDAB8EAE88FDC0743 /* NSObject+PYObject.h */,
+				34C24E30A6ED0BFDF0730953A2D62A90 /* NSObject+PYObject.m */,
+				A09387E1AC3C0B9169279C3D93B56CFC /* PYAreaStyle.h */,
+				F7FE63E78EC910BB01250F9CD6AE5A5E /* PYAreaStyle.m */,
+				445AFE0AE03D1919CBB9C77FBFED07DC /* PYAxis.h */,
+				11AEF9C3AF6D48B47E39A50E3A0E6833 /* PYAxis.m */,
+				B70A43244D7981086E3691B9464F348F /* PYAxisLabel.h */,
+				492BD1DAFF1BCE38D7D43D64783E7D0D /* PYAxisLabel.m */,
+				61EECB2D88E08CFD720108AFAAAB1857 /* PYAxisLine.h */,
+				290A222C446F5D98C73E0CAB85A1DFBC /* PYAxisLine.m */,
+				0282D59C9177711EC635E1A176B6D1BF /* PYAxisPointer.h */,
+				9452737B4E0236EB7033FE546D503334 /* PYAxisPointer.m */,
+				AFCEB20DF31E1E94102267FA7C13A970 /* PYAxisSplitLine.h */,
+				4211C40DC59839E316B06BE384F893B2 /* PYAxisSplitLine.m */,
+				BEB63644653E001064B8B2FB8CCDEB7B /* PYAxisTick.h */,
+				7F216DFAC7C50996F2DFDF623D7AE88F /* PYAxisTick.m */,
+				7F423FD44A5998021955EC146BFC674B /* PYCartesianSeries.h */,
+				0B5E273F54F26CC707D4433579AE0156 /* PYCartesianSeries.m */,
+				5C02288C7DCF1148EAF4A831C1EA0DE1 /* PYCategories.h */,
+				2712BB0586E081C11670B1DBA8A390C9 /* PYCategories.m */,
+				052891BA796C3B3316686C6DF490F0CE /* PYChordSeries.h */,
+				BBA07C2825CDC40CDF3C7AFBD39C8BAA /* PYChordSeries.m */,
+				D502AC765852C10D729E5F6CB9E9FF9E /* PYChordStyle.h */,
+				5B5E9685E9FB485A1D6F6072B83FF532 /* PYChordStyle.m */,
+				7790EDE07EBB88393394092766AF4023 /* PYColor.h */,
+				A99C338B3EB406A4857DD47CF02F8B64 /* PYColor.m */,
+				B78D0FD4846CA4BD3758C6B73F98CA4A /* PYDataRange.h */,
+				611ECF7C976CD4B9F2B6BEE55A97CFAE /* PYDataRange.m */,
+				74ED1C5C70A38C0394A71A46711AA415 /* PYDataZoom.h */,
+				702A665DA0EA02FF799C75411336B210 /* PYDataZoom.m */,
+				ADECF3D7475D1944BD48050A060403CC /* PYEchartsView.h */,
+				C47D3806D2BE134E7565FAE8B79C9FF6 /* PYEchartsView.m */,
+				E328FB6897AA3F1BFCA6961DA632B056 /* PYEventRiverSeries.h */,
+				72DF2E7C13F24E0FDDB77F27D96EB500 /* PYEventRiverSeries.m */,
+				184EC063F783F70A7CBC1635525754E3 /* PYForceSeries.h */,
+				46A6CA341A1AD0BA7ED6F6C8112CE5FA /* PYForceSeries.m */,
+				FFF01A64A7CC145C929EDFA749F65950 /* PYFunnelSeries.h */,
+				E10C9215D8115F99ABFA9616560AAC2E /* PYFunnelSeries.m */,
+				96B09BF4600482AEADC1B48F209BD8D1 /* PYGaugeSeries.h */,
+				868526E20B70FF12B156B173EEFF3D17 /* PYGaugeSeries.m */,
+				873E1E763B98DA1D82E217BDF1B3091B /* PYGrid.h */,
+				2A120D6DE3E26C7CF908599315733FFD /* PYGrid.m */,
+				1D32313BDAE3B774DC10F013BB38F8FB /* PYHeatmapSeries.h */,
+				43E27E53ABEE3663508D465F1CD777C4 /* PYHeatmapSeries.m */,
+				0D0CE14678921D3ACEAB5B32A4430F1D /* PYItemStyle.h */,
+				49E17536C12BF38DA449A8530AD057D8 /* PYItemStyle.m */,
+				627B6116FBF8DB94B46CA2CE01CC797E /* PYItemStyleProp.h */,
+				DD21B0BA68E73C4EFB14E6D4CFE3445E /* PYItemStyleProp.m */,
+				4027DAA0F0DF8C8C545FA327B08E1D80 /* PYJsonUtil.h */,
+				B7AF360D27A262FF4FA36F2CF8647290 /* PYJsonUtil.m */,
+				87182940E75A8D693F50432C6FA18843 /* PYLegend.h */,
+				3E17CD5E04959D1015E7A2CA23F81B0E /* PYLegend.m */,
+				3B494683002B977670DF6F03271858AD /* PYLineStyle.h */,
+				4FD178DBF47BDC24E8170257AB2E4777 /* PYLineStyle.m */,
+				217D4F54215CB4F29FA41801E9C8E9CD /* PYLinks.h */,
+				C098D6BA4300BC9CBB1F4814595EE235 /* PYLinks.m */,
+				58E0C570AE52CC2E412C33EAF34F1DD3 /* PYLinkStyle.h */,
+				3AA969CB88327DC9475ACD35A0C03FE6 /* PYLinkStyle.m */,
+				BDEE37B0E9D4D0D7B148893CA6913EE5 /* PYLoadingOption.h */,
+				AE62E4E4E92FABD6515EE407E7C3ED17 /* PYLoadingOption.m */,
+				B3E24C5BF27546B2F01E4F9C023B7B34 /* PYMapSeries.h */,
+				4B4B8EBEE41420F60597B0DDA247EE9D /* PYMapSeries.m */,
+				4E1B04923C906D60BD3C9DC82013CB6B /* PYMarkLine.h */,
+				089864E055091D7CA3797AAF18FE835B /* PYMarkLine.m */,
+				8F418423E27B02BED70560BFBC7615C6 /* PYMarkPoint.h */,
+				BABE734F38A1792574C6247EF3C71836 /* PYMarkPoint.m */,
+				F48A16C0D4F7D8866A2CC78E5BF6FE29 /* PYNoDataLoadingOption.h */,
+				F8C9AB5EE69E2F40C4E42E8289026DF2 /* PYNoDataLoadingOption.m */,
+				2A278EB375E57208D3605F844B1E1B6F /* PYNodes.h */,
+				6BEED744BD24026E4A88A58BF783CCCA /* PYNodes.m */,
+				CB06819B0019FC94B23DF56FA86B041B /* PYNodeStyle.h */,
+				4E12668845E303501C1B63C6B546342F /* PYNodeStyle.m */,
+				94A9B57FCB0527DB64B73B2A1F917C01 /* PYOption.h */,
+				41B6CD687798BC4B3CCDD4577AAB6CD8 /* PYOption.m */,
+				B92480CA541B67389AE22DE20AE94252 /* PYPieSeries.h */,
+				F0AECEDDB336DB9CC6900F25A20364C1 /* PYPieSeries.m */,
+				85ED9F4803EF5FD8F4FDF1ECF970A9F3 /* PYPolar.h */,
+				4DE4522EF8FDF8F85D34136ADDCFD0F8 /* PYPolar.m */,
+				BE98D0B84ED100A4456AAFD74372020B /* PYRadarSeries.h */,
+				85240A0E92F9819B35D4D79F62DE5426 /* PYRadarSeries.m */,
+				20C0B7F5A29045B32F9E9FDB921CF39C /* PYRoamController.h */,
+				4F739A445A94B1EAC3604B87CC1C271A /* PYRoamController.m */,
+				A9AB7971E82AD64410EAE92C738AAF7B /* PYSeries.h */,
+				39AEB7F81FC414B6BEFE45CAC43DB070 /* PYSeries.m */,
+				724CD7B8AD54018EBEBD25DDAFB2AAE5 /* PYSplitArea.h */,
+				AC66E81D6517CB32E26A17FD214D61B4 /* PYSplitArea.m */,
+				0D1DD97726A9A3EF5F2B9DD7305C835B /* PYTextStyle.h */,
+				82452EAE08246112BC0E93518135F01C /* PYTextStyle.m */,
+				5EDA32D1AB6A368094C04B384EE3A994 /* PYTimeline.h */,
+				56FAB292A6EB7E76547FA42FB7E25141 /* PYTimeline.m */,
+				67BE63B6A0E4BBC08FF0BC93E8289377 /* PYTitle.h */,
+				99B00A428005B900ED542C7C40DB3099 /* PYTitle.m */,
+				E1588A1E3E8E6CB07FBDD3AF7B311339 /* PYToolbox.h */,
+				A2DEF1E48E54B6C4349A841D214CA417 /* PYToolbox.m */,
+				1B8111FAFAEC3EB006ED97B9AD6A1AE6 /* PYToolboxFeature.h */,
+				5C137A3212767FC40F612765F4867B93 /* PYToolboxFeature.m */,
+				ED751187303EB6345A93A992062765B7 /* PYTooltip.h */,
+				3CC483069A3CB9CD67B4DEC2FC3EF3A4 /* PYTooltip.m */,
+				742F8306E567AEF8316A3ACF9B925D41 /* PYTreeMapSeries.h */,
+				EB87E073DCB2DF6C7744F58B35668E3F /* PYTreeMapSeries.m */,
+				BC544AA583D97D5B04BD39904AF50BE4 /* PYTreeSeries.h */,
+				3618FDFDE8D06209304E625902695833 /* PYTreeSeries.m */,
+				990C323D163903E9C4AB59135D7CB8FF /* PYUtilities.h */,
+				B455F87FBDE21AE072749A6874E01FFA /* PYVennSeries.h */,
+				359D5113019EA878C3B54F3A2F21649C /* PYVennSeries.m */,
+				40DCC14F455D95914BAB5A489EEF4BC6 /* PYWordCloudSeries.h */,
+				F20F61DC62BD0EB11BCAC52C3DEC93F2 /* PYWordCloudSeries.m */,
+				109AA5E73F0490D20C2CAE2D2623C3B8 /* PYZoomEchartsView.h */,
+				D5D39180AC9D52D8AE6845D7FFC46C15 /* PYZoomEchartsView.m */,
+				9F13EB2A1A8C2BF9F33EAA20B9DC619C /* WKEchartsView.h */,
+				61CCC4384DFC7395F0B0009DD6B4A171 /* WKEchartsView.m */,
+				2C23D47B6B017EE930D529EC7B17EF30 /* Resources */,
+				897EDF7EEE02DE21C9D6425CE07C3F18 /* Support Files */,
+			);
+			name = "iOS-Echarts";
+			path = "iOS-Echarts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18C0671EE583ABE9C193EA609C9493F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5125A0D6CDCDC7E2CB5F304876604E3 /* JSONAPI.h in Headers */,
+				80EF696ABAAF8B86936411BA92864FA5 /* JSONHTTPClient.h in Headers */,
+				89FDA19DEC265FEFC5DC0FC36C932524 /* JSONKeyMapper.h in Headers */,
+				187D5CE930EF2A8728DECAD8423F4D1F /* JSONModel+networking.h in Headers */,
+				68BACA6316F0C05E8B81FA5676A54C40 /* JSONModel.h in Headers */,
+				F673B9F19CCEDF9DDA79226CFA40199A /* JSONModelClassProperty.h in Headers */,
+				E5D1AFB5E8012A9BBFE8B8C76E324E32 /* JSONModelError.h in Headers */,
+				A221D72F62C8CCE9575157C57E090EC9 /* JSONModelLib.h in Headers */,
+				84159E7557161974DBC462DBBBE48343 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698AE6736340F650F9E1941699D060E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7411019530B798D3C8FB852BC441D5 /* iOS-Echarts.h in Headers */,
+				9D9D3182B7B0714358DF7B8B8C53352F /* NSObject+PYObject.h in Headers */,
+				058B312CD225CA92A1D20C72EA835D24 /* PYAreaStyle.h in Headers */,
+				2157418DC7E294F275B5F0E22A4E050A /* PYAxis.h in Headers */,
+				939BB9E564F9A2C4A38AC42DB147A4E6 /* PYAxisLabel.h in Headers */,
+				4E93D9EEBB3ABCA920FBE21DCE56027C /* PYAxisLine.h in Headers */,
+				C7260EFD30B06AFE75A2C0FDCD0FC812 /* PYAxisPointer.h in Headers */,
+				735F3CBFFE607533C6A3B121789AF962 /* PYAxisSplitLine.h in Headers */,
+				5041C54579F498827A41063BAACCE80E /* PYAxisTick.h in Headers */,
+				3F40DF7D10BF74BDB496FBC26DEAA918 /* PYCartesianSeries.h in Headers */,
+				9CEED5BC93E20EA39572722FB5CE7231 /* PYCategories.h in Headers */,
+				85C487BBC54499B6AED4F4350FCC5B2E /* PYChordSeries.h in Headers */,
+				871819F6309FCF7824A2E4055EC4113C /* PYChordStyle.h in Headers */,
+				57FF32B49C104CB8BE291339497ADDB7 /* PYColor.h in Headers */,
+				47BB0049F5F3CBF2885B1363281D6654 /* PYDataRange.h in Headers */,
+				612219A7D011B10C0B2722043B7E207A /* PYDataZoom.h in Headers */,
+				4E065AFEE4DC55C076BF82CDF632AD3F /* PYEchartsView.h in Headers */,
+				E2361571E74743BC4EBD2D734C913AD6 /* PYEventRiverSeries.h in Headers */,
+				00DEDADC5CE7CD0584EA89E38453984B /* PYForceSeries.h in Headers */,
+				1C8DA44F62BFBA2F0716B529C672761A /* PYFunnelSeries.h in Headers */,
+				00A8604BF0F08681D4A9DB99EE14A2C7 /* PYGaugeSeries.h in Headers */,
+				D841130B2466B78EC8D13A9BEAF69D1F /* PYGrid.h in Headers */,
+				E55A8E346FD3EB786E3D92FCAAF3BAC7 /* PYHeatmapSeries.h in Headers */,
+				A6D6A076FACCA04C99738C4BF7C6DBE5 /* PYItemStyle.h in Headers */,
+				F0FFCC82A4A1701978BA4FA94BE30DF0 /* PYItemStyleProp.h in Headers */,
+				939CE158971D2051384E7E8C001C4C64 /* PYJsonUtil.h in Headers */,
+				0DEDC96DAEB8867B043452C1D378F37E /* PYLegend.h in Headers */,
+				AEB10E4C530081BBF10BA1BE9458F362 /* PYLineStyle.h in Headers */,
+				AFA7B52ED28313AB1B508707AA734B21 /* PYLinks.h in Headers */,
+				D324F9C29A7D1A54D0EA5373E50EC19D /* PYLinkStyle.h in Headers */,
+				DB196776A8A9D687B6F00F6BC35B3C2D /* PYLoadingOption.h in Headers */,
+				BF34FC0E2795039ADF67E0A19FBB5EC1 /* PYMapSeries.h in Headers */,
+				45A93AF505038F6F3B44F822C3B491EB /* PYMarkLine.h in Headers */,
+				4FBED43AAEE93ED4B6AA231C285ED44D /* PYMarkPoint.h in Headers */,
+				91B6D4C2EA65A856669E1D0BAC33903D /* PYNoDataLoadingOption.h in Headers */,
+				43FFA198C9D08D8DF51284F8AC52DCBF /* PYNodes.h in Headers */,
+				77FE1A53E6713DCAA46C6DE9BFD9C2D5 /* PYNodeStyle.h in Headers */,
+				224D1DC6C329221D22740D2D8B107AEB /* PYOption.h in Headers */,
+				735080F4DED28780A7DF67B829AA0297 /* PYPieSeries.h in Headers */,
+				ED0D43D26BC7CAECB667B26E842604AB /* PYPolar.h in Headers */,
+				5E5BFA44D5C0EFF377BD148BF6D03004 /* PYRadarSeries.h in Headers */,
+				F4235ADCE8B582DBD53EFD466C4B0A2B /* PYRoamController.h in Headers */,
+				2FCADB13C2F3D21E251FE796C73BEE2C /* PYSeries.h in Headers */,
+				1AFF9F1AAFC5A5999188718C2485A77C /* PYSplitArea.h in Headers */,
+				78D098A1505FBEAFC7880C8438A6AC4B /* PYTextStyle.h in Headers */,
+				2581CE1AAF3B0ECCC4EDBFD232564B2A /* PYTimeline.h in Headers */,
+				6AE24059F6A4DD1A3F55008774AD933F /* PYTitle.h in Headers */,
+				CFF5154B79EA26CC2BAEA533914C1B71 /* PYToolbox.h in Headers */,
+				863B14E40020FFD7EEC7B4C4DBC9D734 /* PYToolboxFeature.h in Headers */,
+				F2FDBC0873380CDE20B7B3FE43FE59DC /* PYTooltip.h in Headers */,
+				6FCE9B6B8F7B468F733375C9F1A0CE5F /* PYTreeMapSeries.h in Headers */,
+				77F2043CC3C19C0DC7306F9EB91E529E /* PYTreeSeries.h in Headers */,
+				0D2F605E1896047E8767F929F529023B /* PYUtilities.h in Headers */,
+				EC63B9F43EE981907A5A8DC573461313 /* PYVennSeries.h in Headers */,
+				EAB22BE5759275B5F904758D7898F891 /* PYWordCloudSeries.h in Headers */,
+				001E9CF39383972AF7175770522A3E53 /* PYZoomEchartsView.h in Headers */,
+				B328C6A51D29F3820F4F351997DDAF29 /* WKEchartsView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C44A6112A9F1122469B8D1171459AB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD84EFE2F159118DB9BBBD4445A0CF7 /* SocketRocket.h in Headers */,
+				58BC692B21D7DE014B43EDD6B429FFEA /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28FD624DE2367AD8188D71BBD23DE64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD168DDE589BC7C7B8B6EA5DC865C55 /* NSData+ImageContentType.h in Headers */,
+				1F3B69A9665746265F00BCECE843C66D /* NSImage+WebCache.h in Headers */,
+				EB3761BA2397A53AD23FAD7F8FB31914 /* SDImageCache.h in Headers */,
+				5924AA8600BD00E50755C1106647B0B2 /* SDImageCacheConfig.h in Headers */,
+				CD3B6EE60BD447B2DAD05E1438E4CFD2 /* SDWebImageCompat.h in Headers */,
+				DBAD1AB24073ED49C20F65C2742E14EB /* SDWebImageDecoder.h in Headers */,
+				6C5C0D427A05341BCE205CE20B6799AD /* SDWebImageDownloader.h in Headers */,
+				918DC59487528D8399F165F7CE75D454 /* SDWebImageDownloaderOperation.h in Headers */,
+				882AA7C03626DDA709E746DBF86AA3F5 /* SDWebImageManager.h in Headers */,
+				7E44051C92B60BB6BD61077C48503D58 /* SDWebImageOperation.h in Headers */,
+				C23BB12907053A10150BE9E980EAF291 /* SDWebImagePrefetcher.h in Headers */,
+				9B12C06E2FABF10DE961C126DB51C6EB /* UIButton+WebCache.h in Headers */,
+				42C18BBC2FD60F6ED1850838BC447F62 /* UIImage+GIF.h in Headers */,
+				51ABBB22FE0CD88188550336253753F6 /* UIImage+MultiFormat.h in Headers */,
+				5B48AF299CAC22EDDE38347A959BF103 /* UIImageView+HighlightedWebCache.h in Headers */,
+				0DCDFD5830841D9286EE1AA02F23DAA0 /* UIImageView+WebCache.h in Headers */,
+				8BFED442FA52F3200E5908A1C98C5197 /* UIView+WebCache.h in Headers */,
+				DF8277A3BFA5EAC1A5D953A97CABC624 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF57EC6DF4DD2736C7C216D9CEB9428 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1615F44139A14CEC7C82D546361B0609 /* MJRefresh.h in Headers */,
+				7B2ED9E571E4E51168F7157F2EAE6199 /* MJRefreshAutoFooter.h in Headers */,
+				0A3A685BD9A56E789E9EA83A1FECBBAE /* MJRefreshAutoGifFooter.h in Headers */,
+				85BBFB5F0008B8304BF840AA6449C61F /* MJRefreshAutoNormalFooter.h in Headers */,
+				FF1B68BB2C26B49D0DB408D77BF73D8C /* MJRefreshAutoStateFooter.h in Headers */,
+				ADD69BFB0A0F3F7B7E162E410A67CF05 /* MJRefreshBackFooter.h in Headers */,
+				ED89F1A48BA44D203A2C4B9C6F53AC0B /* MJRefreshBackGifFooter.h in Headers */,
+				C16FDBA2BC10E28B8D59DE5CCF4758EC /* MJRefreshBackNormalFooter.h in Headers */,
+				59CF9E95314C2B98CD4E53BA7FE282E4 /* MJRefreshBackStateFooter.h in Headers */,
+				88290D5C90C12F48F09E6AC463737F1F /* MJRefreshComponent.h in Headers */,
+				925EBB6CDAA2E17791E1DDCDA62A3375 /* MJRefreshConst.h in Headers */,
+				99364D96200D03FC3229E6A956E10ADB /* MJRefreshFooter.h in Headers */,
+				95F90F972DFDFBC3E012F069A6E24C33 /* MJRefreshGifHeader.h in Headers */,
+				2AC677C7D32F72030B81CA00F24F65FD /* MJRefreshHeader.h in Headers */,
+				9DDC888AA9FE29CD96DCB574AF125142 /* MJRefreshNormalHeader.h in Headers */,
+				597CEE76562EB4D948504B07655C54D6 /* MJRefreshStateHeader.h in Headers */,
+				2B20A7A457F69EA4CFEC2DB9CFB37FC9 /* NSBundle+MJRefresh.h in Headers */,
+				A67059B6451EE4D4C8827F52621E54A3 /* UIScrollView+MJExtension.h in Headers */,
+				D91A44E187477241B893D258E3F67A58 /* UIScrollView+MJRefresh.h in Headers */,
+				F88580E07538A44A13193CA98E37ADCA /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FA3F9D780F0A57E55222615ED55C72 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				B33344124068CA24916553C4E50D541C /* Sources */,
+				E1FFA9BD201F7FCE2311B14D2E5AA8C0 /* Frameworks */,
+				BCF57EC6DF4DD2736C7C216D9CEB9428 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = 0DB9B4442ABA1B13D468DEADDDD66B33 /* libMJRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		21FDA27BB65ACD977F912D38701E92F9 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CCF78791D0C3EA34697A1D6E3B19A51 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				C72AA1BD4CA37E8EBEAFD65A63ACDC7F /* Sources */,
+				C8F4C0F63A7FCC40CF4A01F9A14405EA /* Frameworks */,
+				9C44A6112A9F1122469B8D1171459AB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = B630691A57DE1B6D7922609016F8676D /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2686B9FB2D06BC6B063AEC612F7FBE4D /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414694CC0A7563FE54800B8B3F6FCAFE /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				2FB86DBC3EF06C5F2F230C26BCB12E95 /* Sources */,
+				8494834B1CC86A214DD97319D0139FAF /* Frameworks */,
+				A28FD624DE2367AD8188D71BBD23DE64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = C61140E21BE05B3716B137A2A3C46B6A /* libSDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55E3CFFEDC2629EE0C17B343EC00595B /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D5BC679A0719D83212904869EFF97E /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				760F3BCD3D083D84A9F067E362DC4615 /* Sources */,
+				BD371DC2758CB1467B3846AB880B8EFB /* Frameworks */,
+				18C0671EE583ABE9C193EA609C9493F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = 21C9334F63F8584BFCC0C6251D9EFBC4 /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E13471F890DAAF5A2A1E500D4010146 /* Pods-WeexDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D241F63397393C285AC5E23EB457A010 /* Build configuration list for PBXNativeTarget "Pods-WeexDemo" */;
+			buildPhases = (
+				E103DEAC99A237710643C9426D4573E7 /* Sources */,
+				77BAFA14B602502A689296A0B2B3705D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0533AF8A973A3FFF6793A29C1B77ACA1 /* PBXTargetDependency */,
+				A2F5F8B3E5242F07EA094CB12FEC9960 /* PBXTargetDependency */,
+				59A2370D228700334B7A5EA8643CAB75 /* PBXTargetDependency */,
+				F40305DA85769CA71508B6CAC6ADAA2B /* PBXTargetDependency */,
+				08331D2F2FCE741A679A93B3BB14EAD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeexDemo";
+			productName = "Pods-WeexDemo";
+			productReference = 58166D7F86AD7B5D785B9B5EF552EDDC /* libPods-WeexDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF38EA93C85B2EB4C51AF70570D6B6E6 /* iOS-Echarts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F290C5F1670EAF4C50E91C12C27D432 /* Build configuration list for PBXNativeTarget "iOS-Echarts" */;
+			buildPhases = (
+				FC995E110A912B49554502F1E55676DC /* Sources */,
+				974DE0B11AABCFE227D2E9237739EBE2 /* Frameworks */,
+				698AE6736340F650F9E1941699D060E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE0B69AB361DC72248F9FC991D1BBD8 /* PBXTargetDependency */,
+			);
+			name = "iOS-Echarts";
+			productName = "iOS-Echarts";
+			productReference = 7047714560D9CA4B36F8B7226B34DCF8 /* libiOS-Echarts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF5952F16FC50F0A074D3C54CB59EB15 /* iOS-Echarts-iOS-Echarts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD663A5D85914077C68C0AC276ACBE0 /* Build configuration list for PBXNativeTarget "iOS-Echarts-iOS-Echarts" */;
+			buildPhases = (
+				D7B7C1CB64CF864B30FE2ED7A9DD0E99 /* Sources */,
+				47D050F63507D01098DE8182A57DECA8 /* Frameworks */,
+				FF9FD84513F7D1EFD623C4C9F9065B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Echarts-iOS-Echarts";
+			productName = "iOS-Echarts-iOS-Echarts";
+			productReference = 1C0D0DD3B888A8C3C3BCFD3077D5BB0E /* iOS-Echarts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F1BB8C37C0A7721AD7097DB8C5F39375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF38EA93C85B2EB4C51AF70570D6B6E6 /* iOS-Echarts */,
+				DF5952F16FC50F0A074D3C54CB59EB15 /* iOS-Echarts-iOS-Echarts */,
+				55E3CFFEDC2629EE0C17B343EC00595B /* JSONModel */,
+				04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */,
+				9E13471F890DAAF5A2A1E500D4010146 /* Pods-WeexDemo */,
+				2686B9FB2D06BC6B063AEC612F7FBE4D /* SDWebImage */,
+				21FDA27BB65ACD977F912D38701E92F9 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9FD84513F7D1EFD623C4C9F9065B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100A0EA8A903F53034524D93344AADA5 /* echarts.html in Resources */,
+				1603E6BD5F566649EC8756F0B7598099 /* js in Resources */,
+				00F587226377D8858BD3B0DF2245BA02 /* theme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB86DBC3EF06C5F2F230C26BCB12E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F728127036515C2D45D29474BCAED19C /* NSData+ImageContentType.m in Sources */,
+				00F0A6B62A04D374A53846A2A8E9B678 /* NSImage+WebCache.m in Sources */,
+				37CFE5B2AFA36BA5F9CFCE1DC48A63DA /* SDImageCache.m in Sources */,
+				2BB5B96C1FA4923B47F1F51E01D62A93 /* SDImageCacheConfig.m in Sources */,
+				1176C2AF2DFCA38EFD9E22EA65238FFA /* SDWebImage-dummy.m in Sources */,
+				69C8A9818CA23688644E83C4F9B48FDE /* SDWebImageCompat.m in Sources */,
+				E0D19DBBE7EA276B999C0927DAD197C9 /* SDWebImageDecoder.m in Sources */,
+				FD3EDA5F82B30C77536C625AA5C50A35 /* SDWebImageDownloader.m in Sources */,
+				39823254C0D0D255F33BB8A627DDB929 /* SDWebImageDownloaderOperation.m in Sources */,
+				CEDC36544DE88C51E6338D83A399F7E7 /* SDWebImageManager.m in Sources */,
+				39F1C3F609E0C536F09B15F46709B477 /* SDWebImagePrefetcher.m in Sources */,
+				5992F851D7ED1C7319BF0D3E6CA5DA3A /* UIButton+WebCache.m in Sources */,
+				CBFA9E8BF004D429FE3712F205326E18 /* UIImage+GIF.m in Sources */,
+				DFF0AE0F73F13074F8040169096A6ABA /* UIImage+MultiFormat.m in Sources */,
+				F69E60D2F42D6058EB7332E0A68C953A /* UIImageView+HighlightedWebCache.m in Sources */,
+				3D861153B0302416C56400034EE66435 /* UIImageView+WebCache.m in Sources */,
+				471CDD763A97A1CC13CFDC8825C1C49A /* UIView+WebCache.m in Sources */,
+				264D0BCAEB0419F7628985F4BEF8CF34 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760F3BCD3D083D84A9F067E362DC4615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9058C56ECBB51A528709FD1F0A3FBF9 /* JSONAPI.m in Sources */,
+				23CADB8F8A08DDE539EC8C72A74014CA /* JSONHTTPClient.m in Sources */,
+				8D8A5EB192F195646788BB4B841E13DC /* JSONKeyMapper.m in Sources */,
+				B1B5E8411DDE1035AE30045F60AC80EC /* JSONModel+networking.m in Sources */,
+				F989BB5ECEB845176605AAA511204ADC /* JSONModel-dummy.m in Sources */,
+				0579E3AA5EDCAED14E9CF577181B29DB /* JSONModel.m in Sources */,
+				13EE67173954AE6AD28CF0B98E9DEB47 /* JSONModelClassProperty.m in Sources */,
+				A24E23767A5847B0C18F884818CA01DA /* JSONModelError.m in Sources */,
+				94E15AA408F0FA6A0172D8A1F64B04BB /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33344124068CA24916553C4E50D541C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64ADA912DD6E167B4E3C6DB870667C8 /* MJRefresh-dummy.m in Sources */,
+				635F9EFF4A131A00C8F9BE720E78D446 /* MJRefreshAutoFooter.m in Sources */,
+				E7FA008E96CF99E93D2F596722662B83 /* MJRefreshAutoGifFooter.m in Sources */,
+				5000B5AA92F7956AFA56581E82A81407 /* MJRefreshAutoNormalFooter.m in Sources */,
+				1E38527C36D3C3F2D2EEC3CD45533510 /* MJRefreshAutoStateFooter.m in Sources */,
+				BDA7650B1BB999519160ABFE5E089CD3 /* MJRefreshBackFooter.m in Sources */,
+				186ECA7F2B213C7A11A8F871EFD917CE /* MJRefreshBackGifFooter.m in Sources */,
+				268DA924AEA51CCBE7D187332E4841A5 /* MJRefreshBackNormalFooter.m in Sources */,
+				46D931760B10C6FBE8B29D06AAC94228 /* MJRefreshBackStateFooter.m in Sources */,
+				4D12AC4D83DB34A425A171DD383B8134 /* MJRefreshComponent.m in Sources */,
+				FC091A4266DB8F2CED4F0629F8AE59F2 /* MJRefreshConst.m in Sources */,
+				160E962CE69AF99AE0E349571A381C9A /* MJRefreshFooter.m in Sources */,
+				1E2E1AF6F9351E4FEF7F4D58C242A775 /* MJRefreshGifHeader.m in Sources */,
+				9F06B13BAA0376EAD4E125DA78456B3B /* MJRefreshHeader.m in Sources */,
+				6B8E59D8C26F34D72EB14F5769D0DFEC /* MJRefreshNormalHeader.m in Sources */,
+				341A4BCFB7B1E78548ECD00869FE22B3 /* MJRefreshStateHeader.m in Sources */,
+				B7EAF278902A9B25808126F504317845 /* NSBundle+MJRefresh.m in Sources */,
+				F53754CAAB10BB3C954169DE35007A65 /* UIScrollView+MJExtension.m in Sources */,
+				4982F6A38E149A01137311B533591DD5 /* UIScrollView+MJRefresh.m in Sources */,
+				7CE298FC4680B93B3A466613E565BA0B /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72AA1BD4CA37E8EBEAFD65A63ACDC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8313EC76D5CFAD262097020320252CBD /* SocketRocket-dummy.m in Sources */,
+				FA86026A147BCDF20FCC4E5B1E9FD7E5 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B7C1CB64CF864B30FE2ED7A9DD0E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E103DEAC99A237710643C9426D4573E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BEFE2DD13B510B269ADBE663D6826F /* Pods-WeexDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC995E110A912B49554502F1E55676DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC97584742009136C11522C4916B9D19 /* iOS-Echarts-dummy.m in Sources */,
+				F785A423E14108DC581494A9F87E6099 /* NSObject+PYObject.m in Sources */,
+				E8273CEBF1D56A4627CF1B3CCDBA71B8 /* PYAreaStyle.m in Sources */,
+				181EB9524542C71007CE1AA8453C898B /* PYAxis.m in Sources */,
+				3A3F734B217BD8E29F7B7B4F5E4CB7C8 /* PYAxisLabel.m in Sources */,
+				93EDA71FE583E92C564046021EDC6E38 /* PYAxisLine.m in Sources */,
+				0EB0327741C749CA8607606186840D8D /* PYAxisPointer.m in Sources */,
+				447E8D220D70410E91077E7DD148B849 /* PYAxisSplitLine.m in Sources */,
+				CA91A270834369588A50935E2FD6BD3A /* PYAxisTick.m in Sources */,
+				78FDC39CD6B0C44427D1776F3D8FC55A /* PYCartesianSeries.m in Sources */,
+				45E7855647CC0269176B05884A787EA8 /* PYCategories.m in Sources */,
+				E8A602E6B50C1405658982CC0E579719 /* PYChordSeries.m in Sources */,
+				579AC6E4AA729C7832006C744D2A1B60 /* PYChordStyle.m in Sources */,
+				C6034ACCFF26A355CB2AEA04D6D9C872 /* PYColor.m in Sources */,
+				0584589CC5483269356E26A2725B46CC /* PYDataRange.m in Sources */,
+				3BDC230BBF2ED9AC2BB2A8D2B665A65A /* PYDataZoom.m in Sources */,
+				B02EDD14544CD4DB5DDCE6BEC04BB87F /* PYEchartsView.m in Sources */,
+				6566D5A29C72211543E0AE02FD191528 /* PYEventRiverSeries.m in Sources */,
+				F8920260191C1794FE9B313E1338698A /* PYForceSeries.m in Sources */,
+				229981F1D0D51AB0E1E6EE2BCB36A8A9 /* PYFunnelSeries.m in Sources */,
+				08D494990BF1123DFD7BFA3FAD20FCB1 /* PYGaugeSeries.m in Sources */,
+				676DA5E8A5A2F010313353C652DAC8A3 /* PYGrid.m in Sources */,
+				B9005A190C4941E15D68775B98820C69 /* PYHeatmapSeries.m in Sources */,
+				21889C29BF6D512EF5E56023325BE16D /* PYItemStyle.m in Sources */,
+				52A03B08D3A9F5E1221BA61C1A1B8932 /* PYItemStyleProp.m in Sources */,
+				6E59171E24DEEF504E8558C80E541651 /* PYJsonUtil.m in Sources */,
+				7CA31E5D4DEE33D60E7145E27EA13A81 /* PYLegend.m in Sources */,
+				52491BCB896CE8B326911D7053791734 /* PYLineStyle.m in Sources */,
+				CB1872607DFA1B2C1EDF8D853982B400 /* PYLinks.m in Sources */,
+				8A5CB1A8DD4E380CA59DE5AA975DCFAD /* PYLinkStyle.m in Sources */,
+				A9D987042EAD5CF6014EAF4BBD7BB9B3 /* PYLoadingOption.m in Sources */,
+				29D43903A7E200406158FDFEB4AB2B0D /* PYMapSeries.m in Sources */,
+				FEF61FFDB52A1C81035DEEB9FAF9EB31 /* PYMarkLine.m in Sources */,
+				8859572DA501928E2BB1F304D7EEC4C9 /* PYMarkPoint.m in Sources */,
+				EFD156E10A99AB414A8A7C84FC82FFC2 /* PYNoDataLoadingOption.m in Sources */,
+				838BA28329D682BBC053417F078048B9 /* PYNodes.m in Sources */,
+				F26826F8D7034866E0A49AC7C04FAAD9 /* PYNodeStyle.m in Sources */,
+				14B0336FD6DC77C1773B374AE60D3CB7 /* PYOption.m in Sources */,
+				45808DA1F981823409B3BF96223D666C /* PYPieSeries.m in Sources */,
+				155F4A11D1C10936739B92970AAB0408 /* PYPolar.m in Sources */,
+				4BA071623F4B82E586A9A58EA4E01CDF /* PYRadarSeries.m in Sources */,
+				6EC5E85C18FAE2AC22BA5716349EEC73 /* PYRoamController.m in Sources */,
+				AAA9F9FA2072F0F521892E6812B52629 /* PYSeries.m in Sources */,
+				C521B7FE62804A6154CF609BC9422999 /* PYSplitArea.m in Sources */,
+				5A9F5F854C6DD6FF68CEEA7FA68382AC /* PYTextStyle.m in Sources */,
+				548A81A5C4842D2B4CF16840BE62EEE8 /* PYTimeline.m in Sources */,
+				F7D8112EF68548C7E2560AA1CA5548D0 /* PYTitle.m in Sources */,
+				9EFF06340E1502BF1F4E797A92BF04D8 /* PYToolbox.m in Sources */,
+				C73C52684157264415DE5904E339E4F1 /* PYToolboxFeature.m in Sources */,
+				4894A1732F9FE845374B0D93B3275667 /* PYTooltip.m in Sources */,
+				584D85D52E65C6F2A00BF23E827303BE /* PYTreeMapSeries.m in Sources */,
+				8D897D005C0D89F01B0CC1579812B344 /* PYTreeSeries.m in Sources */,
+				B844AA8AF0B904462D6558AB182D312A /* PYVennSeries.m in Sources */,
+				7DBF9B04056B46D209411BF502D6D3B4 /* PYWordCloudSeries.m in Sources */,
+				41F987271D71AC28C50264D3AB276625 /* PYZoomEchartsView.m in Sources */,
+				B1884695D8A669491EF4AACF84D8156D /* WKEchartsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0533AF8A973A3FFF6793A29C1B77ACA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 55E3CFFEDC2629EE0C17B343EC00595B /* JSONModel */;
+			targetProxy = A5FBA71CA366D3E02E60B5363BFA7E6C /* PBXContainerItemProxy */;
+		};
+		08331D2F2FCE741A679A93B3BB14EAD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-Echarts";
+			target = CF38EA93C85B2EB4C51AF70570D6B6E6 /* iOS-Echarts */;
+			targetProxy = 0722822DF5408C1B219DFD40450B193F /* PBXContainerItemProxy */;
+		};
+		59A2370D228700334B7A5EA8643CAB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 2686B9FB2D06BC6B063AEC612F7FBE4D /* SDWebImage */;
+			targetProxy = 6002A2466A3769ECA500D8C1DC066333 /* PBXContainerItemProxy */;
+		};
+		9AE0B69AB361DC72248F9FC991D1BBD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-Echarts-iOS-Echarts";
+			target = DF5952F16FC50F0A074D3C54CB59EB15 /* iOS-Echarts-iOS-Echarts */;
+			targetProxy = 41750D7FC568C358C8F0FE3F664EA68F /* PBXContainerItemProxy */;
+		};
+		A2F5F8B3E5242F07EA094CB12FEC9960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 04CF549EBEEE7BC87AEAE35397184D94 /* MJRefresh */;
+			targetProxy = 5ADE4DEF9529F38DF719A708A8D7B991 /* PBXContainerItemProxy */;
+		};
+		F40305DA85769CA71508B6CAC6ADAA2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 21FDA27BB65ACD977F912D38701E92F9 /* SocketRocket */;
+			targetProxy = 11B3AA48801301F94546605C5A6CA4B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		141869D8DC3200E43BA7A2315C2F7FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BDBF34EE57F5D7522733D1C4FD1CFD /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2B14B11887182D5C343DD7F87AFE5961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A02220CDB37FA55D83ABE72475C786 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405186D1A95DCF9873465C417DC808C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A02220CDB37FA55D83ABE72475C786 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		414721FC78BD8022F0A3BF6A19E2E84A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B00551F331ABE25B3F9617C788A5E10 /* iOS-Echarts.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Echarts/iOS-Echarts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4796C746C6671C94AD7B38103506EF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2206FC95F323EC80B343159F109CE818 /* Pods-WeexDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5B851D79FC017813DD1B91977BB84CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F377CBAD47939A0117AB02C6D623300 /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		631BABF37B227FC1BA67B0B9381A6F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B00551F331ABE25B3F9617C788A5E10 /* iOS-Echarts.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iOS-Echarts";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/iOS-Echarts/ResourceBundle-iOS-Echarts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "iOS-Echarts";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		696636B9E4040C26C92E832F1A4B7D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43C61CA6ACDF1148CCD49B01C481D1E /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		75CDCE2B48ACB1AE17114132DB304F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC35F9DBFBC41A4ACBE8AFCA3244952 /* Pods-WeexDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A2E087DBD5FBBCF3E13AABB21BFA6414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B00551F331ABE25B3F9617C788A5E10 /* iOS-Echarts.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iOS-Echarts";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/iOS-Echarts/ResourceBundle-iOS-Echarts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "iOS-Echarts";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B71A3A83651F90278396948A8BBCDC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BDBF34EE57F5D7522733D1C4FD1CFD /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C020581F8A2FEEA91501C53EED05F986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43C61CA6ACDF1148CCD49B01C481D1E /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0285D3B89124EBF71BF0567C81B4BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F377CBAD47939A0117AB02C6D623300 /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9484E3911421339C52405C9E352C040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B00551F331ABE25B3F9617C788A5E10 /* iOS-Echarts.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Echarts/iOS-Echarts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CCF78791D0C3EA34697A1D6E3B19A51 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71A3A83651F90278396948A8BBCDC33 /* Debug */,
+				141869D8DC3200E43BA7A2315C2F7FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD663A5D85914077C68C0AC276ACBE0 /* Build configuration list for PBXNativeTarget "iOS-Echarts-iOS-Echarts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E087DBD5FBBCF3E13AABB21BFA6414 /* Debug */,
+				631BABF37B227FC1BA67B0B9381A6F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D5BC679A0719D83212904869EFF97E /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0285D3B89124EBF71BF0567C81B4BBB /* Debug */,
+				5B851D79FC017813DD1B91977BB84CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FA3F9D780F0A57E55222615ED55C72 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B14B11887182D5C343DD7F87AFE5961 /* Debug */,
+				405186D1A95DCF9873465C417DC808C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414694CC0A7563FE54800B8B3F6FCAFE /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C020581F8A2FEEA91501C53EED05F986 /* Debug */,
+				696636B9E4040C26C92E832F1A4B7D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F290C5F1670EAF4C50E91C12C27D432 /* Build configuration list for PBXNativeTarget "iOS-Echarts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9484E3911421339C52405C9E352C040 /* Debug */,
+				414721FC78BD8022F0A3BF6A19E2E84A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D241F63397393C285AC5E23EB457A010 /* Build configuration list for PBXNativeTarget "Pods-WeexDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75CDCE2B48ACB1AE17114132DB304F0E /* Debug */,
+				4796C746C6671C94AD7B38103506EF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

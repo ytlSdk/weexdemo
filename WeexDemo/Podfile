@@ -1,0 +1,11 @@
+platform :ios,'8.0'
+
+target 'WeexDemo' do
+	pod 'JSONModel'
+	pod 'MJRefresh'
+	pod 'iOS-Echarts'
+	pod 'WeexSDK'
+	pod 'SocketRocket'
+	pod 'SDWebImage'
+	pod 'WXDevtool',:configuration => ['Debug']
+end
