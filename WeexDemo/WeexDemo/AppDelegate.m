@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <WeexSDK/WxSDKEngine.h>
+#import <WeexSDK/WXLog.h>
+#import <WeexSDK/WXDebugTool.h>
+#import <WeexSDK/WXAppConfiguration.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +19,19 @@
 
 @implementation AppDelegate
 
+- (void)initWeex {
+    //business configuration
+    [WXAppConfiguration setAppGroup:@"AliApp"];
+    [WXAppConfiguration setAppName:@"WeexDemo"];
+    [WXAppConfiguration setAppVersion:@"1.0.0"];
+    //init sdk enviroment
+    [WXSDKEngine initSDKEnviroment];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initWeex];
+    
     return YES;
 }
 

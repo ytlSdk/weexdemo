@@ -16,6 +16,7 @@
 		E161CEED1F22DFE6000A2855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E161CEEB1F22DFE6000A2855 /* LaunchScreen.storyboard */; };
 		E161CEF81F22DFE6000A2855 /* WeexDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E161CEF71F22DFE6000A2855 /* WeexDemoTests.m */; };
 		E161CF031F22DFE6000A2855 /* WeexDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E161CF021F22DFE6000A2855 /* WeexDemoUITests.m */; };
+		E19163301F232F0B005ADFF6 /* js in Resources */ = {isa = PBXBuildFile; fileRef = E191632F1F232F0B005ADFF6 /* js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E161CEFE1F22DFE6000A2855 /* WeexDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeexDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E161CF021F22DFE6000A2855 /* WeexDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexDemoUITests.m; sourceTree = "<group>"; };
 		E161CF041F22DFE6000A2855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E191632F1F232F0B005ADFF6 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = weex/js; sourceTree = SOURCE_ROOT; };
 		F5A7A416ECCFDB09B1699383 /* Pods-WeexDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F77FEE7422DD41D1C5447CEB /* Pods-WeexDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 		E161CEDC1F22DFE6000A2855 /* WeexDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E191632F1F232F0B005ADFF6 /* js */,
 				E161CEE01F22DFE6000A2855 /* AppDelegate.h */,
 				E161CEE11F22DFE6000A2855 /* AppDelegate.m */,
 				E161CEE31F22DFE6000A2855 /* ViewController.h */,
@@ -279,6 +282,7 @@
 				E161CEED1F22DFE6000A2855 /* LaunchScreen.storyboard in Resources */,
 				E161CEEA1F22DFE6000A2855 /* Assets.xcassets in Resources */,
 				E161CEE81F22DFE6000A2855 /* Main.storyboard in Resources */,
+				E19163301F232F0B005ADFF6 /* js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +597,7 @@
 				E161CF091F22DFE6000A2855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E161CF0A1F22DFE6000A2855 /* Build configuration list for PBXNativeTarget "WeexDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +606,7 @@
 				E161CF0C1F22DFE6000A2855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E161CF0D1F22DFE6000A2855 /* Build configuration list for PBXNativeTarget "WeexDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +615,7 @@
 				E161CF0F1F22DFE6000A2855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
